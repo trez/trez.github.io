@@ -4,9 +4,64 @@
         <title>b00ksh3lf</title>
         <style>
 .twitter-typeahead, .tt-hint, .tt-input, .tt-menu { width: 100%;  }
+.tt-menu {
+   margin-top: 12px;
+   padding: 8px 0;
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   border-radius: 8px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.2);
+       color: black;
+}
+
+.tt-query, /* UPDATE: newer versions use tt-input instead of tt-query */
+.tt-hint {
+   height: 30px;
+   padding: 8px 12px;
+   font-size: 24px;
+   line-height: 30px;
+   border: 2px solid #ccc;
+   border-radius: 8px;
+   outline: none;
+}
+.tt-query { /* UPDATE: newer versions use tt-input instead of tt-query */
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.tt-hint {
+   color: #999;
+}
+.tt-menu {
+   margin-top: 12px;
+   padding: 8px 0;
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   border-radius: 8px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.2);
+       color: black;
+}
+.tt-suggestion {
+   padding: 3px 20px;
+   font-size: 18px;
+   line-height: 24px;
+   color: black;
+}
+.tt-suggestion.tt-is-under-cursor { 
+   color: #fff;
+   background-color: #0097cf;
+}
+.tt-suggestion p {
+   margin: 0;
+}
+
 .dark-mode {
     background-color: black;
     color: white;
+}
+
+.row {
+    justify-content: center;
 }
         </style>
         <script src="jquery-3.6.1.min.js"></script>
@@ -41,6 +96,28 @@
      name: 'states',
      source: substringMatcher(Object.keys(cards))
     });
+    $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
+      $('#card-info-location').html("");
+      let sets = Object.keys(cards[suggestion]);     
+      let cardInfo = sets[0].split("@")[0].split("#");
+
+      var myURL = "https://api.scryfall.com/cards/" + cardInfo[0] + "/" + cardInfo[1];
+      $.getJSON(myURL, function(data) {
+           $('#card-info-img').html('<img src=\'' + data['image_uris']['small'] + '\'/>');
+           $('#card-info-name').text(data['name'] + ' | ' + data['mana_cost']);
+           $('#card-info-type').text(data['type_line']);
+           $('#card-info-oracle').html(data['oracle_text'].replace('\n', '<br/>'));
+           sets.forEach(key => {
+             let numCards = cards[suggestion][key]
+             let keySplit = key.split("@");
+             let setInfo = keySplit[0];
+             let locationCards = card_paths[keySplit[1]];
+             $('#card-info-location').append("<div class='p-1'>" + numCards + "x " + setInfo + " @ " + locationCards + "</div>");
+             // console.log(numCards + "x " + setInfo + " @ " + locationCards);
+           });
+      });
+      console.log('Selection: ' + suggestion);
+    });
    });
   
         </script>
@@ -48,18 +125,38 @@
     <body class="dark-mode"> 
         <div class="container">
             <div class="row align-items-center justify-content-center pb-3">   
-                <div class="col"></div>
                 <div class="col-6 text-center">
                     <div><b>b00ksh3lf</b></div>
                 </div>
-                <div class="col"></div>
             </div>
             <div class="row align-items-center justify-content-center">   
-                <div class="col"></div>
-                <div id="the-basics" class="col-6" style="">
+                <div id="the-basics" class="col-6">
                     <input class="typeahead form-control form-control-lg" type="text" placeholder="Card search" width="100%">
                 </div>
-                <div class="col"></div>
+            </div>
+            <div class="row p-1">   
+                <div class="col-6">
+                    <div id="card-info-img"></div>
+                </div>
+            </div>
+            <div class="row  p-1">   
+                <div class="col-6">
+                    <div id="card-info-name"></div>
+                </div>
+            </div>
+            <div class="row p-1">   
+                <div class="col-6">
+                    <div id="card-info-type"></div>
+                </div>
+            </div>
+            <div class="row p-1">   
+                <div class="col-6">
+                    <div id="card-info-oracle"></div>
+                </div>
+            </div>
+            <div class="row">   
+                <div id="card-info-location" class="col-6 d-flex flex-column" style="">
+                </div>
             </div>
         </div>
     </body>
