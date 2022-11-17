@@ -105,7 +105,12 @@
            $('#card-info-img').html('<img src=\'' + data['image_uris']['small'] + '\'/>');
            $('#card-info-name').text(data['name'] + ' | ' + data['mana_cost']);
            $('#card-info-type').text(data['type_line']);
-           $('#card-info-oracle').html(data['oracle_text'].replace('\n', '<br/>'));
+           if ('oracle_text' in data) {
+               $('#card-info-oracle').html(data['oracle_text'].replaceAll('\n', '<br/>'));
+           } else if ('card_faces' in data) {
+               let oracle_text = data['card_faces'][0]['oracle_text'] + "\n//\n" + data['card_faces'][1]['oracle_text'];
+               $('#card-info-oracle').html(oracle_text.replaceAll('\n', '<br/>'));
+           }
            sets.forEach(key => {
              let numCards = cards[suggestion][key]
              let keySplit = key.split("@");
