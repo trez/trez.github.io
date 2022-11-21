@@ -111,6 +111,12 @@
                let oracle_text = data['card_faces'][0]['oracle_text'] + "\n//\n" + data['card_faces'][1]['oracle_text'];
                $('#card-info-oracle').html(oracle_text.replaceAll('\n', '<br/>'));
            }
+           $('#card-info-links').append('<div class="p-1"><a href=\'' + data['scryfall_uri'] + '\'>scryfall link</a></div>');
+           if ('purchase_uris' in data) {
+               if ('cardmarket' in data['purchase_uris']) {
+                   $('#card-info-links').append('<div class="p-1"><a href=\'' + data['purchase_uris']['cardmarket'] + '\'>mcm link</a></div>');
+               }
+           }
            sets.forEach(key => {
              let numCards = cards[suggestion][key]
              let keySplit = key.split("@");
@@ -158,8 +164,12 @@
                     <div id="card-info-oracle"></div>
                 </div>
             </div>
-            <div class="row">   
-                <div id="card-info-location" class="col-xl-6 col-lg-11 d-flex flex-column" style="">
+            <div class="row p-1">   
+                <div id="card-info-location" class="col-xl-6 col-lg-11 d-flex flex-column">
+                </div>
+            </div>
+            <div class="row p-1">   
+                <div id="card-info-links" class="col-xl-6 col-lg-11 d-flex flex-row p-1">
                 </div>
             </div>
         </div>
