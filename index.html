@@ -97,6 +97,7 @@
     });
     $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
       $('#card-info-location').html("");
+      $('#card-info-links').html("");
       let sets = Object.keys(cards[suggestion]);     
       let cardInfo = sets[0].split("@")[0].split("#");
 
