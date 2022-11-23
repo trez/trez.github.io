@@ -87,6 +87,7 @@
    };
   };
    $(document).ready(function(){
+    let cardNames = Object.keys(cards).sort();
     $('#the-basics .typeahead').typeahead({
       hint: true,
       highlight: true,
@@ -94,7 +95,7 @@
     }, {
      name: 'states',
      limit: 10,
-     source: substringMatcher(Object.keys(cards))
+     source: substringMatcher(Object.keys(cardNames)),
     });
     $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
       $('#card-info-location').html("");
