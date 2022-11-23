@@ -95,7 +95,7 @@
     }, {
      name: 'states',
      limit: 10,
-     source: substringMatcher(Object.keys(cardNames)),
+     source: substringMatcher(cardNames),
     });
     $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
       $('#card-info-location').html("");
