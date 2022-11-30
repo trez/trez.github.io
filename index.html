@@ -86,21 +86,13 @@
       cb(matches);
    };
   };
-   $(document).ready(function(){
-    let cardNames = Object.keys(cards).sort();
-    $('#the-basics .typeahead').typeahead({
-      hint: true,
-      highlight: true,
-      minLength: 1
-    }, {
-     name: 'states',
-     limit: 10,
-     source: substringMatcher(cardNames),
-    });
-    $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
+  var updateCardInfo = function(cardName) {
+      if (!(cardName in cards)) {
+        return;
+      }
       $('#card-info-location').html("");
       $('#card-info-links').html("");
-      let sets = Object.keys(cards[suggestion]);     
+      let sets = Object.keys(cards[cardName]);     
       let cardInfo = sets[0].split("@")[0].split("#");
 
       var myURL = "https://api.scryfall.com/cards/" + cardInfo[0] + "/" + cardInfo[1];
@@ -121,14 +113,45 @@
                }
            }
            sets.forEach(key => {
-             let numCards = cards[suggestion][key]
+             let numCards = cards[cardName][key]
              let keySplit = key.split("@");
              let setInfo = keySplit[0];
              let locationCards = card_paths[keySplit[1]];
              $('#card-info-location').append("<div class='p-1'>" + numCards + "x " + setInfo + " @ " + locationCards + "</div>");
            });
       });
+
+  }
+   $(document).ready(function(){
+    let cardNames = Object.keys(cards).sort();
+    $('#the-basics .typeahead').typeahead({
+      hint: true,
+      highlight: true,
+      minLength: 1,
+      autoselect: true,
+    }, {
+     name: 'states',
+     limit: 10,
+     source: substringMatcher(cardNames),
     });
+    $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
+      updateCardInfo(suggestion);
+      let current_url = new URL(document.URL);
+      let params = new URLSearchParams(current_url.search);
+      params.set('card', encodeURIComponent(suggestion));
+      window.history.replaceState({}, '', `${location.pathname}?${params}`);
+    });
+    const current_url = new URL(document.URL);
+    console.log(current_url);
+    if (current_url.search) {
+       const params = new URLSearchParams(current_url.search);
+       if (params.has('card')) {
+           const card_name = decodeURIComponent(params.get('card'));
+           $(".typeahead").typeahead('val', card_name);
+           updateCardInfo(card_name);
+       }
+       console.log("SEARCH!" + params);
+    }
    });
   
         </script>
