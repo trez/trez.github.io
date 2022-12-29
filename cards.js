@@ -120,6 +120,7 @@ var cards ={
  "Astral Cornucopia": {
   "bng#157@1": 3,
   "c16#243@1": 1,
+  "brr#5@5": 1,
   "cm2#172@8": 1
  },
  "Atarka, World Render": {
@@ -687,7 +688,8 @@ var cards ={
  },
  "Mishra's Bauble": {
   "ima#221@1": 2,
-  "csp#138@1": 2
+  "csp#138@1": 2,
+  "brr#34@5": 2
  },
  "Mogis, God of Slaughter": {
   "bng#151@1": 1
@@ -720,9 +722,6 @@ var cards ={
   "mm3#175@1": 1,
   "rtr#183@19": 1,
   "c17#184@9": 1
- },
- "Niv-Mizzet, Parun": {
-  "grn#192@1": 1
  },
  "Niv-Mizzet, the Firemind": {
   "mm2#182@1": 1,
@@ -802,7 +801,8 @@ var cards ={
   "dgm#91@1": 2
  },
  "Platinum Angel": {
-  "mrd#228@1": 1
+  "mrd#228@1": 1,
+  "brr#41@5": 1
  },
  "Plea for Guidance": {
   "bng#24@1": 3
@@ -1131,23 +1131,26 @@ var cards ={
  "Captain Vargus Wrath": {
   "cmr#273#foil@25": 1
  },
- "Coercive Recruiter": {
-  "cmr#169#foil@25": 1
- },
  "Corsair Captain": {
   "jmp#11@25": 1
  },
+ "Deadeye Brawler": {
+  "rix#155@25": 1
+ },
+ "Deadeye Tracker": {
+  "xln#99@25": 1
+ },
  "Departed Deckhand": {
   "jmp#149@25": 1
+ },
+ "Dowsing Dagger // Lost Vale": {
+  "xln#235@25": 1
  },
  "Malcolm, Keen-Eyed Navigator": {
   "cmr#79@25": 1
  },
  "Siren Stormtamer": {
   "cmr#96@25": 1
- },
- "Zara, Renegade Recruiter": {
-  "cmr#294#foil@25": 1
  },
  "Arlinn Kord // Arlinn, Embraced by the Moon": {
   "soi#243@26": 1
@@ -1450,6 +1453,9 @@ var cards ={
   "ddm#17@32": 1,
   "c16#82@32": 1
  },
+ "Aetherflux Reservoir": {
+  "brr#2@5": 1
+ },
  "Aeve, Progenitor Ooze": {
   "mh2#148@5": 1
  },
@@ -1509,6 +1515,9 @@ var cards ={
  "Ashiok's Erasure": {
   "thb#43@5": 1,
   "thb#43@32": 1
+ },
+ "Ashnod, Flesh Mechanist": {
+  "bro#84@5": 2
  },
  "Asmoranomardicadaistinaculdacar": {
   "mh2#186#foil@5": 1
@@ -1622,6 +1631,10 @@ var cards ={
  },
  "Burning Earth": {
   "m14#130@5": 2
+ },
+ "Burnished Hart": {
+  "brr#8@5": 1,
+  "c19#211@20": 1
  },
  "Calibrated Blast": {
   "mh2#118@5": 1
@@ -1751,6 +1764,9 @@ var cards ={
  "Deflecting Palm": {
   "ktk#173@5": 1
  },
+ "Diabolic Intent": {
+  "bro#89@5": 1
+ },
  "Diamond Lion": {
   "mh2#470@5": 1
  },
@@ -1865,6 +1881,9 @@ var cards ={
   "peld#244p#foil@5": 1,
   "peld#244s#foil@23": 1
  },
+ "Fade from History": {
+  "bro#177@5": 1
+ },
  "Falkenrath Forebear": {
   "vow#111@5": 1
  },
@@ -1880,6 +1899,9 @@ var cards ={
  },
  "Fateful Showdown": {
   "kld#114@5": 1
+ },
+ "Feldon, Ronom Excavator": {
+  "pbro#135s@5": 1
  },
  "Fervor": {
   "m13#129@5": 1
@@ -1997,8 +2019,15 @@ var cards ={
  "Gurmag Angler": {
   "tsr#324@5": 1
  },
+ "Gwenna, Eyes of Gaea": {
+  "bro#185@5": 1
+ },
  "Gyruda, Doom of Depths": {
   "iko#221@5": 1
+ },
+ "Hall of Tagsin": {
+  "pbro#263s@5": 1,
+  "bro#263@5": 1
  },
  "Hamlet Vanguard": {
   "vow#201@5": 1
@@ -2051,6 +2080,9 @@ var cards ={
  "Hullbreaker Horror": {
   "vow#63@5": 1
  },
+ "Hurkyl's Final Meditation": {
+  "bro#52@5": 1
+ },
  "Ignition Team": {
   "cns#34@5": 1
  },
@@ -2073,6 +2105,9 @@ var cards ={
  },
  "Inscription of Ruin": {
   "znr#108@5": 1
+ },
+ "Inspiring Statuary": {
+  "brr#85@5": 1
  },
  "Ion Storm": {
   "2xm#132@5": 1
@@ -2263,6 +2298,10 @@ var cards ={
  "Meria, Scholar of Antiquity": {
   "dmu#305@5": 1
  },
+ "Millstone": {
+  "brr#95@5": 1,
+  "4ed#336@3": 2
+ },
  "Mimic Vat": {
   "c18#209@5": 1,
   "c19#219@36": 1,
@@ -2283,6 +2322,9 @@ var cards ={
  "Mirrorwing Dragon": {
   "emn#136@5": 1
  },
+ "Mishra's Foundry": {
+  "bro#265@5": 1
+ },
  "Mob Rule": {
   "frf#109@5": 2
  },
@@ -2292,14 +2334,14 @@ var cards ={
  "Molten Rain": {
   "tsr#348@5": 1
  },
- "Morphic Pool": {
-  "bbd#83@5": 1
- },
  "Multiform Wonder": {
   "kld#223@5": 1
  },
  "Muraganda Petroglyphs": {
   "tsr#220@5": 2
+ },
+ "Mystic Forge": {
+  "brr#99@5": 1
  },
  "Mystic Gate": {
   "2xm#324@5": 1
@@ -2384,6 +2426,9 @@ var cards ={
   "frf#110@5": 1,
   "c17#139@22": 1
  },
+ "Over the Top": {
+  "bro#146@5": 1
+ },
  "Overgrown Farmland": {
   "mid#265@5": 2
  },
@@ -2397,6 +2442,7 @@ var cards ={
   "tsr#179@5": 1
  },
  "Painful Quandary": {
+  "bro#111@5": 1,
   "som#73@5": 1
  },
  "Painful Truths": {
@@ -2466,8 +2512,14 @@ var cards ={
  "Pursued Whale": {
   "m21#60@5": 1
  },
+ "Queen Kayla bin-Kroog": {
+  "bro#218@5": 2
+ },
  "Quest for the Nihil Stone": {
   "wwk#64@5": 1
+ },
+ "Quicksilver Amulet": {
+  "brr#45@5": 1
  },
  "Quicksilver Fountain": {
   "mrd#233@5": 2
@@ -2529,6 +2581,9 @@ var cards ={
  "Ruinous Ultimatum": {
   "iko#204@5": 2
  },
+ "Runechanter's Pike": {
+  "brr#48@5": 1
+ },
  "Runed Halo": {
   "m21#32#foil@5": 1,
   "m21#32@5": 1
@@ -2583,6 +2638,9 @@ var cards ={
   "cm2#214@6": 1,
   "c18#221@17": 1
  },
+ "Self-Assembler": {
+  "brr#51@5": 1
+ },
  "Sengir, the Dark Baron": {
   "cmr#722#foil@5": 2
  },
@@ -2628,6 +2686,9 @@ var cards ={
  },
  "Skeletal Vampire": {
   "c17#126@5": 1
+ },
+ "Skitterbeam Battalion": {
+  "bro#165@5": 1
  },
  "Slaughter Pact": {
   "tsr#138@5": 1
@@ -2715,17 +2776,8 @@ var cards ={
  "Storm the Festival": {
   "mid#200@5": 1
  },
- "Stormcarved Coast": {
-  "vow#265@5": 1
- },
  "Stuffy Doll": {
   "tsr#274@5": 1
- },
- "Sulfur Falls": {
-  "dom#247#foil@5": 1
- },
- "Sulfurous Springs": {
-  "dmu#381@5": 1
  },
  "Summoner's Pact": {
   "tsr#234@5": 1
@@ -2745,6 +2797,16 @@ var cards ={
  },
  "Swiftblade Vindicator": {
   "grn#203@5": 1
+ },
+ "Swiftfoot Boots": {
+  "brr#58@5": 1,
+  "c18#225@37": 1,
+  "c17#226@27": 1,
+  "c14#275@4": 1,
+  "c17#226@12": 1,
+  "c14#275@31": 1,
+  "cm2#223@33": 1,
+  "c13#263@11": 1
  },
  "Sword of Vengeance": {
   "c15#272@5": 1,
@@ -2839,6 +2901,9 @@ var cards ={
  "Timothar, Baron of Bats": {
   "voc#4@5": 1
  },
+ "Tocasia's Welcome": {
+  "bro#30@5": 1
+ },
  "Tombstalker": {
   "tsr#146@5": 1
  },
@@ -2855,12 +2920,19 @@ var cards ={
   "cm2#225@33": 1,
   "m13#220#foil@23": 1
  },
+ "Transmogrant's Crown": {
+  "bro#125@5": 1
+ },
  "Transmogrify": {
   "m21#167@5": 2
  },
  "Triskelion": {
   "ddf#57@5": 1,
   "4ed#354@3": 1
+ },
+ "Tsabo Tavoc": {
+  "plist#877@5": 1,
+  "inv#281@3": 2
  },
  "Tymaret Calls the Dead": {
   "pthb#118s#foil@5": 1,
@@ -2872,6 +2944,10 @@ var cards ={
  },
  "Undercity Plague": {
   "gtc#83@5": 1
+ },
+ "Underground River": {
+  "bro#300@5": 1,
+  "cm2#275@8": 1
  },
  "Underworld Breach": {
   "thb#161@5": 1,
@@ -2886,6 +2962,9 @@ var cards ={
  "Upheaval": {
   "mh2#270@5": 1,
   "ody#113@23": 1
+ },
+ "Urza's Workshop": {
+  "brc#28@5": 1
  },
  "Vance's Blasting Cannons // Spitfire Bastion": {
   "xln#173@5": 1
@@ -5382,9 +5461,6 @@ var cards ={
  "Burning Vengeance": {
   "c19#135@20": 1
  },
- "Burnished Hart": {
-  "c19#211@20": 1
- },
  "Chemister's Insight": {
   "c19#80@20": 1
  },
@@ -5438,9 +5514,6 @@ var cards ={
  "Divine Reckoning": {
   "c19#62@20": 1,
   "c17#59@12": 1
- },
- "Dockside Extortionist": {
-  "c19#24@20": 1
  },
  "Elsha of the Infinite": {
   "c19#40#foil@20": 1
@@ -5558,6 +5631,9 @@ var cards ={
  },
  "Mystic Retrieval": {
   "c19#90@20": 1
+ },
+ "Niv-Mizzet, Parun": {
+  "grn#192@20": 1
  },
  "Oona's Grace": {
   "c19#91@20": 1
@@ -5911,9 +5987,6 @@ var cards ={
  },
  "Tuskguard Captain": {
   "cm2#147@8": 1
- },
- "Underground River": {
-  "cm2#275@8": 1
  },
  "Vorel of the Hull Clade": {
   "cm2#169@8": 1
@@ -7124,15 +7197,6 @@ var cards ={
  "Soul of New Phyrexia": {
   "c18#223@37": 1
  },
- "Swiftfoot Boots": {
-  "c18#225@37": 1,
-  "c17#226@27": 1,
-  "c14#275@4": 1,
-  "c17#226@12": 1,
-  "c14#275@31": 1,
-  "cm2#223@33": 1,
-  "c13#263@11": 1
- },
  "Tawnos, Urza's Apprentice": {
   "c18#45#foil@37": 1
  },
@@ -8147,8 +8211,14 @@ var cards ={
  "Captivating Crew": {
   "pxln#137s#foil@18": 1
  },
+ "City of Shadows": {
+  "drk#116@18": 1
+ },
  "Coastal Piracy": {
   "mmq#68@18": 1
+ },
+ "Coercive Recruiter": {
+  "cmr#169#foil@18": 1
  },
  "Contract Killing": {
   "xln#95@18": 1
@@ -8156,14 +8226,8 @@ var cards ={
  "Dead Man's Chest": {
   "rix#66@18": 1
  },
- "Deadeye Brawler": {
-  "rix#155@18": 1
- },
  "Deadeye Plunderers": {
   "xln#220@18": 1
- },
- "Deadeye Tracker": {
-  "xln#99@18": 1
  },
  "Depths of Desire": {
   "xln#52@18": 1
@@ -8174,8 +8238,8 @@ var cards ={
  "Dire Fleet Neckbreaker": {
   "rix#156@18": 1
  },
- "Dowsing Dagger // Lost Vale": {
-  "xln#235@18": 1
+ "Dockside Extortionist": {
+  "c19#24@18": 1
  },
  "Entrancing Melody": {
   "xln#55@18": 1
@@ -8220,6 +8284,9 @@ var cards ={
   "rtr#101@18": 1,
   "rtr#101#foil@23": 1
  },
+ "Morphic Pool": {
+  "bbd#83@18": 1
+ },
  "Pitiless Plunderer": {
   "rix#81@18": 1
  },
@@ -8257,6 +8324,15 @@ var cards ={
  "Storm the Vault // Vault of Catlacan": {
   "rix#173@18": 1
  },
+ "Stormcarved Coast": {
+  "vow#265@18": 1
+ },
+ "Sulfur Falls": {
+  "dom#247#foil@18": 1
+ },
+ "Sulfurous Springs": {
+  "dmu#381@18": 1
+ },
  "Talas Warrior": {
   "p02#53@18": 1
  },
@@ -8275,6 +8351,9 @@ var cards ={
  },
  "Warkite Marauder": {
   "rix#60@18": 1
+ },
+ "Zara, Renegade Recruiter": {
+  "cmr#294#foil@18": 1
  },
  "Ajani Goldmane": {
   "m11#1@30": 1
@@ -10327,6 +10406,9 @@ var cards ={
  "Birthing Pod": {
   "nph#104@44": 1
  },
+ "Bushwhack": {
+  "bro#174@44": 1
+ },
  "Collected Company": {
   "dtk#177#foil@44": 1
  },
@@ -11838,9 +11920,6 @@ var cards ={
  },
  "Citanul Flute": {
   "usg#289@3": 3
- },
- "City of Shadows": {
-  "drk#116@3": 1
  },
  "Civic Guildmage": {
   "mir#7@3": 3
@@ -15507,9 +15586,6 @@ var cards ={
   "tsp#204#foil@3": 1,
   "tsp#204@3": 1
  },
- "Millstone": {
-  "4ed#336@3": 2
- },
  "Mind Bomb": {
   "5ed#105@3": 1,
   "4ed#87@3": 1
@@ -18848,9 +18924,6 @@ var cards ={
  },
  "Trumpet Blast": {
   "uds#98@3": 3
- },
- "Tsabo Tavoc": {
-  "inv#281@3": 2
  },
  "Tsabo's Assassin": {
   "inv#128@3": 1
