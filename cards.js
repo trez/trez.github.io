@@ -1877,10 +1877,6 @@ var cards ={
  "Eye of Doom": {
   "c13#243@5": 1
  },
- "Fabled Passage": {
-  "peld#244p#foil@5": 1,
-  "peld#244s#foil@23": 1
- },
  "Fade from History": {
   "bro#177@5": 1
  },
@@ -7301,6 +7297,10 @@ var cards ={
  },
  "Exsanguinate": {
   "som#61@27": 1
+ },
+ "Fabled Passage": {
+  "peld#244p#foil@27": 1,
+  "peld#244s#foil@23": 1
  },
  "Field of Ruin": {
   "xln#254@27": 1
