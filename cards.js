@@ -1162,8 +1162,8 @@ var cards ={
   "mm2#236@26": 1
  },
  "Blood Crypt": {
-  "rtr#238@26": 1,
   "rna#245@26": 1,
+  "rtr#238@22": 1,
   "rna#245#foil@23": 1
  },
  "Blooming Marsh": {
@@ -1183,9 +1183,6 @@ var cards ={
  },
  "Castle Ardenvale": {
   "eld#238@26": 1
- },
- "Castle Embereth": {
-  "eld#239@26": 1
  },
  "Castle Locthwain": {
   "eld#241@26": 1
@@ -1231,8 +1228,9 @@ var cards ={
   "m12#227@26": 1
  },
  "Godless Shrine": {
-  "rna#248@26": 4,
+  "rna#248@26": 3,
   "gtc#242@4": 1,
+  "rna#248@22": 1,
   "gtc#242@23": 1
  },
  "Grove of the Burnwillows": {
@@ -1321,7 +1319,7 @@ var cards ={
  },
  "Savai Triome": {
   "iko#253@26": 1,
-  "iko#312@26": 1
+  "iko#312@22": 1
  },
  "Slayers' Stronghold": {
   "avr#229@26": 1,
@@ -1370,9 +1368,8 @@ var cards ={
  "Temple of Triumph": {
   "m20#257@26": 1,
   "m21#256@26": 2,
-  "ths#228@26": 1,
-  "m20#257@6": 1,
-  "ths#228@22": 1
+  "ths#228@26": 2,
+  "m20#257@6": 1
  },
  "Tezzeret, Agent of Bolas": {
   "mbs#97@26": 2
@@ -1626,8 +1623,8 @@ var cards ={
  },
  "Brightclimb Pathway // Grimclimb Pathway": {
   "znr#259@5": 2,
-  "znr#285#foil@5": 1,
-  "znr#285@13": 1
+  "znr#285@13": 1,
+  "znr#285#foil@22": 1
  },
  "Bronzehide Lion": {
   "thb#210@5": 2
@@ -2371,7 +2368,7 @@ var cards ={
  },
  "Needleverge Pathway // Pillarverge Pathway": {
   "znr#263#foil@5": 1,
-  "znr#288@5": 1
+  "znr#288@22": 1
  },
  "Nether Traitor": {
   "tsr#127@5": 2,
@@ -2680,9 +2677,6 @@ var cards ={
  "Silence": {
   "tsr#302@5": 1
  },
- "Silent Clearing": {
-  "mh1#246@5": 1
- },
  "Silent Gravestone": {
   "rix#182@5": 1
  },
@@ -2745,9 +2739,6 @@ var cards ={
  "Speaker of the Heavens": {
   "m21#38@5": 1
  },
- "Spectator Seating": {
-  "cmr#356@5": 1
- },
  "Spell Queller": {
   "emn#189@5": 1,
   "emn#189@42": 1
@@ -2789,9 +2780,6 @@ var cards ={
  },
  "Summoner's Pact": {
   "tsr#234@5": 1
- },
- "Sundown Pass": {
-  "vow#266@5": 1
  },
  "Suspend": {
   "mh2#68@5": 1
@@ -2987,9 +2975,6 @@ var cards ={
  },
  "Varolz, the Scar-Striped": {
   "dgm#112@5": 1
- },
- "Vault of Champions": {
-  "cmr#360#foil@5": 1
  },
  "Verdant Force": {
   "cma#161@5": 1
@@ -5458,8 +5443,7 @@ var cards ={
  },
  "Boros Guildgate": {
   "c19#234@20": 1,
-  "cm2#240@6": 1,
-  "c17#240@22": 1
+  "cm2#240@6": 1
  },
  "Burning Vengeance": {
   "c19#135@20": 1
@@ -5706,7 +5690,6 @@ var cards ={
  },
  "Stone Quarry": {
   "c19#276@20": 1,
-  "c17#282@22": 1,
   "rix#190@36": 1
  },
  "Storm Herd": {
@@ -5744,6 +5727,7 @@ var cards ={
   "c19#281@29": 1,
   "c17#285@10": 1,
   "c13#328@11": 1,
+  "uma#252#foil@28": 1,
   "tsp#279@3": 1
  },
  "Thalia's Geistcaller": {
@@ -5764,8 +5748,7 @@ var cards ={
  "Wind-Scarred Crag": {
   "c19#285@20": 1,
   "cm2#278@6": 1,
-  "ktk#247@4": 1,
-  "c17#294@22": 1
+  "ktk#247@4": 1
  },
  "Zetalpa, Primal Dawn": {
   "c19#79@20": 1,
@@ -6086,8 +6069,7 @@ var cards ={
   "c18#58@17": 1
  },
  "Forsaken Sanctuary": {
-  "c18#247@2": 1,
-  "c17#250@22": 1
+  "c18#247@2": 1
  },
  "Geode Golem": {
   "c18#56@2": 1,
@@ -6164,8 +6146,7 @@ var cards ={
   "c17#268@22": 1
  },
  "Orzhov Guildgate": {
-  "c18#272@2": 1,
-  "c17#269@22": 1
+  "c18#272@2": 1
  },
  "Phyrexian Delver": {
   "c18#115@2": 1
@@ -6198,8 +6179,7 @@ var cards ={
   "tsp#39@3": 3
  },
  "Scoured Barrens": {
-  "c18#276@2": 1,
-  "c17#276@22": 1
+  "c18#276@2": 1
  },
  "Secluded Steppe": {
   "c18#279@2": 1,
@@ -7587,7 +7567,8 @@ var cards ={
   "arb#46#foil@48": 1
  },
  "Ultimate Price": {
-  "dtk#124@4": 1
+  "dtk#124@4": 1,
+  "rtr#82#foil@24": 1
  },
  "Vault of the Archangel": {
   "dka#158@4": 1
@@ -8531,12 +8512,11 @@ var cards ={
  "Captivating Vampire": {
   "c17#104@22": 1
  },
+ "Castle Embereth": {
+  "eld#239@22": 1
+ },
  "Chained to the Rocks": {
   "ths#4@22": 1
- },
- "Cinder Barrens": {
-  "c17#241@22": 1,
-  "c19#235@30": 1
  },
  "Consuming Vapors": {
   "c17#105@22": 1
@@ -8574,9 +8554,6 @@ var cards ={
   "ths#90@22": 1,
   "ths#90@23": 1
  },
- "Kabira Crossroads": {
-  "c17#259@22": 1
- },
  "Kheru Mind-Eater": {
   "c17#17@22": 1
  },
@@ -8608,10 +8585,6 @@ var cards ={
  "Patron of the Vein": {
   "c17#20@22": 1
  },
- "Rakdos Guildgate": {
-  "c17#271@22": 1,
-  "c19#267@30": 1
- },
  "Rakdos Signet": {
   "c17#221@22": 1,
   "dis#165#foil@23": 1
@@ -8629,11 +8602,20 @@ var cards ={
   "4ed#160@3": 4,
   "tor#80@3": 1
  },
+ "Silent Clearing": {
+  "mh1#246@22": 1
+ },
  "Skeletal Scrying": {
   "c17#125@22": 1
  },
+ "Spectator Seating": {
+  "cmr#356@22": 1
+ },
  "Stromkirk Captain": {
   "c17#197@22": 1
+ },
+ "Sundown Pass": {
+  "vow#266@22": 1
  },
  "Teferi's Protection": {
   "c17#8@22": 1
@@ -8641,13 +8623,12 @@ var cards ={
  "Tithe Drinker": {
   "c17#200@22": 1
  },
- "Urborg Volcano": {
-  "c17#288@22": 1,
-  "inv#330@3": 1
- },
  "Vampire Nighthawk": {
   "c17#129@22": 1,
   "m13#112#foil@24": 1
+ },
+ "Vault of Champions": {
+  "cmr#360#foil@22": 1
  },
  "Vein Drinker": {
   "c17#130@22": 1
@@ -9090,6 +9071,9 @@ var cards ={
  "Champion of Stray Souls": {
   "c19#109@30": 1
  },
+ "Cinder Barrens": {
+  "c19#235@30": 1
+ },
  "Curse of Fool's Wisdom": {
   "c19#16@30": 1
  },
@@ -9162,6 +9146,9 @@ var cards ={
  },
  "Plaguecrafter": {
   "c19#126@30": 1
+ },
+ "Rakdos Guildgate": {
+  "c19#267@30": 1
  },
  "Rakdos Locket": {
   "c19#220@30": 1
@@ -9461,7 +9448,8 @@ var cards ={
   "c13#4@11": 1
  },
  "Arcane Denial": {
-  "c13#28@11": 1
+  "c13#28@11": 1,
+  "a25#41#foil@16": 1
  },
  "Azorius Keyrune": {
   "c13#236@11": 1
@@ -10459,6 +10447,9 @@ var cards ={
  "All Is Dust": {
   "mm2#1@28": 1
  },
+ "Gingerbrute": {
+  "eld#219#foil@28": 1
+ },
  "Phyrexian Triniform": {
   "cmr#331@28": 1
  },
@@ -10504,6 +10495,9 @@ var cards ={
  "Jackal Pup": {
   "pd2#2#foil@35": 1
  },
+ "Manic Vandal": {
+  "m11#151#foil@35": 1
+ },
  "Monastery Swiftspear": {
   "ktk#118@35": 1
  },
@@ -10512,6 +10506,10 @@ var cards ={
  },
  "Searing Spear": {
   "m13#147#foil@35": 1
+ },
+ "Shock": {
+  "m12#154#foil@35": 1,
+  "7ed#219@3": 2
  },
  "Sin Prodder": {
   "soi#181@35": 1
@@ -10533,6 +10531,9 @@ var cards ={
  },
  "Bloodgift Demon": {
   "isd#89#foil@24": 1
+ },
+ "Brain Maggot": {
+  "jou#62#foil@24": 1
  },
  "Cryptbreaker": {
   "emn#86#foil@24": 1
@@ -10584,8 +10585,14 @@ var cards ={
  "Banisher Priest": {
   "m14#7#foil@7": 1
  },
+ "Savannah Lions": {
+  "a25#33#foil@7": 1
+ },
  "Tithe Taker": {
   "prna#27s#foil@7": 1
+ },
+ "Wall of Omens": {
+  "ema#34#foil@7": 1
  },
  "Aether Channeler": {
   "dmu#42@16": 1
@@ -17685,9 +17692,6 @@ var cards ={
  "Shivan Hellkite": {
   "usg#214@3": 1
  },
- "Shock": {
-  "7ed#219@3": 2
- },
  "Shocker": {
   "tmp#204@3": 1
  },
@@ -19081,6 +19085,9 @@ var cards ={
  },
  "Urborg Uprising": {
   "apc#53@3": 2
+ },
+ "Urborg Volcano": {
+  "inv#330@3": 1
  },
  "Urza's Avenger": {
   "4ed#355@3": 2
