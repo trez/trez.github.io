@@ -1618,6 +1618,10 @@ var cards ={
   "mh2#273#foil@5": 1,
   "ody#117@23": 1
  },
+ "Branchloft Pathway // Boulderloft Pathway": {
+  "znr#258@5": 1,
+  "znr#258@13": 1
+ },
  "Brash Taunter": {
   "m21#133@5": 1
  },
@@ -1688,6 +1692,9 @@ var cards ={
  "Charmbreaker Devils": {
   "ima#120@5": 1
  },
+ "Clearwater Pathway // Murkwater Pathway": {
+  "znr#260@5": 2
+ },
  "Cloud Key": {
   "tsr#265@5": 1
  },
@@ -1728,7 +1735,7 @@ var cards ={
   "cmr#63@5": 1
  },
  "Cragcrown Pathway // Timbercrown Pathway": {
-  "znr#261@5": 1
+  "znr#261@5": 2
  },
  "Cragganwick Cremator": {
   "2xm#122@5": 1
@@ -1934,6 +1941,9 @@ var cards ={
  "Frondland Felidar": {
   "iko#186@5": 1,
   "piko#186s#foil@5": 1
+ },
+ "Furycalm Snarl": {
+  "stx#266@5": 4
  },
  "Gaea's Revenge": {
   "ori#177@5": 1,
@@ -2366,7 +2376,11 @@ var cards ={
  "Near-Death Experience": {
   "roe#38@5": 1
  },
+ "Necroblossom Snarl": {
+  "stx#269@5": 2
+ },
  "Needleverge Pathway // Pillarverge Pathway": {
+  "znr#263@5": 1,
   "znr#263#foil@5": 1,
   "znr#288@22": 1
  },
@@ -2656,6 +2670,10 @@ var cards ={
  "Shigeki, Jukai Visionary": {
   "neo#206@5": 1
  },
+ "Shineshadow Snarl": {
+  "stx#272@5": 4,
+  "pstx#272s#foil@5": 1
+ },
  "Shivan Dragon": {
   "m14#154@5": 1,
   "w16#13@5": 1,
@@ -2774,6 +2792,10 @@ var cards ={
  },
  "Storm the Festival": {
   "mid#200@5": 1
+ },
+ "Stormcarved Coast": {
+  "vow#284#foil@5": 1,
+  "vow#265@18": 1
  },
  "Stuffy Doll": {
   "tsr#274@5": 1
@@ -2982,6 +3004,9 @@ var cards ={
  "Vile Entomber": {
   "mh2#403@5": 1
  },
+ "Vineglimmer Snarl": {
+  "stx#274@5": 4
+ },
  "Violent Ultimatum": {
   "mb1#1506@5": 1
  },
@@ -3126,9 +3151,6 @@ var cards ={
   "ema#40#foil@23": 1,
   "ice#61@3": 3,
   "sta#13#foil@44": 4
- },
- "Branchloft Pathway // Boulderloft Pathway": {
-  "znr#258@13": 1
  },
  "Brazen Freebooter": {
   "rix#95@13": 1
@@ -8311,9 +8333,6 @@ var cards ={
  },
  "Storm the Vault // Vault of Catlacan": {
   "rix#173@18": 1
- },
- "Stormcarved Coast": {
-  "vow#265@18": 1
  },
  "Sulfur Falls": {
   "dom#247#foil@18": 1

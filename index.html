@@ -97,15 +97,16 @@
 
       var myURL = "https://api.scryfall.com/cards/" + cardInfo[0] + "/" + cardInfo[1];
       $.getJSON(myURL, function(data) {
-           $('#card-info-img').html('<img src=\'' + data['image_uris']['small'] + '\'/>');
-           $('#card-info-name').text(data['name'] + ' | ' + data['mana_cost']);
-           $('#card-info-type').text(data['type_line']);
-           if ('oracle_text' in data) {
-               $('#card-info-oracle').html(data['oracle_text'].replaceAll('\n', '<br/>'));
-           } else if ('card_faces' in data) {
-               let oracle_text = data['card_faces'][0]['oracle_text'] + "\n//\n" + data['card_faces'][1]['oracle_text'];
-               $('#card-info-oracle').html(oracle_text.replaceAll('\n', '<br/>'));
+           let front = null;
+           if ('card_faces' in data) {
+               front = data['card_faces'][0]; // take only one side for now.
+           } else {
+               front = data;
            }
+           $('#card-info-img').html('<img src=\'' + front['image_uris']['small'] + '\'/>');
+           $('#card-info-name').text(front['name'] + ' | ' + front['mana_cost']);
+           $('#card-info-type').text(front['type_line']);
+           $('#card-info-oracle').html(front['oracle_text'].replaceAll('\n', '<br/>'));
            $('#card-info-links').append('<div class="p-1"><a href=\'' + data['scryfall_uri'] + '\'>scryfall link</a></div>');
            if ('purchase_uris' in data) {
                if ('cardmarket' in data['purchase_uris']) {
@@ -142,7 +143,6 @@
       window.history.replaceState({}, '', `${location.pathname}?${params}`);
     });
     const current_url = new URL(document.URL);
-    console.log(current_url);
     if (current_url.search) {
        const params = new URLSearchParams(current_url.search);
        if (params.has('card')) {
@@ -150,7 +150,6 @@
            $(".typeahead").typeahead('val', card_name);
            updateCardInfo(card_name);
        }
-       console.log("SEARCH!" + params);
     }
    });
   
