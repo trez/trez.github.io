@@ -69,89 +69,93 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
         <script>
-  var substringMatcher = function(strs) {
-    return function findMatches(q, cb) {
-     var matches, substringRegex;
-      // an array that will be populated with substring matches
-     matches = [];
-      // regex used to determine if a string contains the substring `q`
-     substrRegex = new RegExp('^' + q + '|\\s+' + q, 'i');
-      // iterate through the pool of strings and for any string that
-     // contains the substring `q`, add it to the `matches` array
-     $.each(strs, function(i, str) {
-       if (substrRegex.test(str)) {
-         matches.push(str);
-       }
-     });
-      cb(matches);
-   };
-  };
-  var updateCardInfo = function(cardName) {
-      if (!(cardName in cards)) {
-        return;
-      }
-      $('#card-info-location').html("");
-      $('#card-info-links').html("");
-      let sets = Object.keys(cards[cardName]);     
-      let cardInfo = sets[0].split("@")[0].split("#");
+    var substringMatcher = function(strs) {
+        return function findMatches(q, cb) {
+            var matches, substringRegex;
+            matches = [];
+            substrRegex = new RegExp('^' + q + '|\\s+' + q, 'i');
+            $.each(strs, function(i, str) {
+              if (substrRegex.test(str)) {
+                matches.push(str);
+              }
+            });
+            cb(matches);
+       };
+    };
 
-      var myURL = "https://api.scryfall.com/cards/" + cardInfo[0] + "/" + cardInfo[1];
-      $.getJSON(myURL, function(data) {
-           let front = null;
-           if ('card_faces' in data) {
-               front = data['card_faces'][0]; // take only one side for now.
-           } else {
-               front = data;
-           }
-           $('#card-info-img').html('<img src=\'' + front['image_uris']['small'] + '\'/>');
-           $('#card-info-name').text(front['name'] + ' | ' + front['mana_cost']);
-           $('#card-info-type').text(front['type_line']);
-           $('#card-info-oracle').html(front['oracle_text'].replaceAll('\n', '<br/>'));
-           $('#card-info-links').append('<div class="p-1"><a href=\'' + data['scryfall_uri'] + '\'>scryfall link</a></div>');
-           if ('purchase_uris' in data) {
-               if ('cardmarket' in data['purchase_uris']) {
-                   $('#card-info-links').append('<div class="p-1"><a href=\'' + data['purchase_uris']['cardmarket'] + '\'>mcm link</a></div>');
-               }
-           }
-           sets.forEach(key => {
-             let numCards = cards[cardName][key]
-             let keySplit = key.split("@");
-             let setInfo = keySplit[0];
-             let locationCards = card_paths[keySplit[1]];
-             $('#card-info-location').append("<div class='p-1'>" + numCards + "x " + setInfo + " @ " + locationCards + "</div>");
-           });
-      });
 
-  }
-   $(document).ready(function(){
-    let cardNames = Object.keys(cards).sort();
-    $('#the-basics .typeahead').typeahead({
-      hint: true,
-      highlight: true,
-      minLength: 1,
-      autoselect: true,
-    }, {
-     name: 'states',
-     limit: 10,
-     source: substringMatcher(cardNames),
-    });
-    $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
-      updateCardInfo(suggestion);
-      let current_url = new URL(document.URL);
-      let params = new URLSearchParams(current_url.search);
-      params.set('card', encodeURIComponent(suggestion));
-      window.history.replaceState({}, '', `${location.pathname}?${params}`);
-    });
-    const current_url = new URL(document.URL);
-    if (current_url.search) {
-       const params = new URLSearchParams(current_url.search);
-       if (params.has('card')) {
-           const card_name = decodeURIComponent(params.get('card'));
-           $(".typeahead").typeahead('val', card_name);
-           updateCardInfo(card_name);
-       }
+    var getCardInfo = function(cardName) {
+        for (var shelf in cards) {
+            if (cardName in cards[shelf]) {
+                return Object.keys(cards[shelf][cardName])[0].split("#");
+            }
+        }
+    };
+    var updateCardInfo = function(cardName) {
+        let cardInfo = getCardInfo(cardName);
+        if (!cardInfo) { return; }
+
+        $('#card-info-location').html("");
+        $('#card-info-links').html("");
+
+        var myURL = "https://api.scryfall.com/cards/" + cardInfo[0] + "/" + cardInfo[1];
+        $.getJSON(myURL, function(data) {
+             let front = null;
+             if ('card_faces' in data) {
+                 front = data['card_faces'][0]; // take only one side for now.
+             } else {
+                 front = data;
+             }
+             $('#card-info-img').html('<img src=\'' + front['image_uris']['small'] + '\'/>');
+             $('#card-info-name').text(front['name'] + ' | ' + front['mana_cost']);
+             $('#card-info-type').text(front['type_line']);
+             $('#card-info-oracle').html(front['oracle_text'].replaceAll('\n', '<br/>'));
+             $('#card-info-links').append('<div class="p-1"><a href=\'' + data['scryfall_uri'] + '\'>scryfall link</a></div>');
+             if ('purchase_uris' in data) {
+                 if ('cardmarket' in data['purchase_uris']) {
+                     $('#card-info-links').append('<div class="p-1"><a href=\'' + data['purchase_uris']['cardmarket'] + '\'>mcm link</a></div>');
+                 }
+             }
+
+             for (var shelf in cards) {
+                 if (cardName in cards[shelf]) {
+                     for (var setInfo in cards[shelf][cardName]) {
+                         let numCards = cards[shelf][cardName][setInfo];
+                         $('#card-info-location').append("<div class='p-1'>" + numCards + "x " + setInfo + " @ " + shelf + "</div>");
+                     }
+                 }
+            };
+        });
     }
-   });
+    $(document).ready(function(){
+        let cardNames = Array.from(new Set(Object.keys(cards).map(path => (Object.keys(cards[path]))).flat()));
+        $('#the-basics .typeahead').typeahead({
+            hint: true,
+            highlight: true,
+            minLength: 1,
+            autoselect: true,
+        }, {
+            name: 'states',
+            limit: 10,
+            source: substringMatcher(cardNames),
+        });
+        $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
+            updateCardInfo(suggestion);
+            let current_url = new URL(document.URL);
+            let params = new URLSearchParams(current_url.search);
+            params.set('card', encodeURIComponent(suggestion));
+            window.history.replaceState({}, '', `${location.pathname}?${params}`);
+        });
+        const current_url = new URL(document.URL);
+        if (current_url.search) {
+            const params = new URLSearchParams(current_url.search);
+            if (params.has('card')) {
+                const card_name = decodeURIComponent(params.get('card'));
+                $(".typeahead").typeahead('val', card_name);
+                updateCardInfo(card_name);
+            }
+        }
+    });
   
         </script>
     </head>
