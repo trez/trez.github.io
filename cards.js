@@ -1025,6 +1025,9 @@ var cards ={
   "Bonders' Enclave": {
    "piko#245s#foil": 1
   },
+  "Breeding Pool": {
+   "gtc#240": 1
+  },
   "Calix, Destiny's Hand": {
    "thb#211": 1
   },
@@ -1076,6 +1079,7 @@ var cards ={
    "m12#227": 1
   },
   "Godless Shrine": {
+   "gtc#242": 1,
    "rna#248": 3
   },
   "Grove of the Burnwillows": {
@@ -1166,6 +1170,9 @@ var cards ={
   },
   "Stensia Bloodhall": {
    "isd#247": 2
+  },
+  "Stomping Ground": {
+   "gtc#247": 1
   },
   "Temple Garden": {
    "rtr#248": 1
@@ -11496,7 +11503,7 @@ var cards ={
    "eld#281#foil": 1
   },
   "Breeding Pool": {
-   "gtc#240": 1
+   "rna#246#foil": 1
   },
   "Breya's Apprentice": {
    "pmh2#117s#foil": 1
@@ -11760,7 +11767,7 @@ var cards ={
    "ulg#80": 1
   },
   "Godless Shrine": {
-   "gtc#242": 1
+   "gtc#242#foil": 1
   },
   "Golgari Signet": {
    "rav#262#foil": 1
@@ -12273,7 +12280,7 @@ var cards ={
    "uma#251": 1
   },
   "Stomping Ground": {
-   "gtc#247": 1
+   "rna#259#foil": 1
   },
   "Stoneforge Mystic": {
    "wwk#20": 1
@@ -12527,19 +12534,19 @@ var cards ={
  },
  "mtg/kuben/basic_lands": {
   "Forest": {
-   "thb#254#foil": 16
+   "thb#254#foil": 28
   },
   "Island": {
-   "thb#251#foil": 14
+   "thb#251#foil": 25
   },
   "Mountain": {
-   "thb#253#foil": 13
+   "thb#253#foil": 30
   },
   "Plains": {
-   "thb#250#foil": 14
+   "thb#250#foil": 20
   },
   "Swamp": {
-   "thb#252#foil": 16
+   "thb#252#foil": 20
   }
  },
  "mtg/kuben/maybeboard/g": {
@@ -12627,6 +12634,9 @@ var cards ={
   },
   "Terramorphic Expanse": {
    "uma#252#foil": 1
+  },
+  "Zagoth Triome": {
+   "iko#313#foil": 1
   }
  },
  "mtg/kuben/maybeboard/grixis": {
