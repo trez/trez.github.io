@@ -69,7 +69,25 @@
         <script src="cards.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script>
+
+    var getAllDirectories = function(paths) {
+        dirs = new Set([""]);
+        for (var p in paths) {
+            let path = paths[p].split("/");
+
+            for (var i = 0; i < path.length; i++) {
+                let slicePath = path.slice(0, i+1);
+                dirs.add(slicePath.join("/"));
+            }
+        }
+        return dirs;
+    }
+
+    var views = document.getElementsByClassName('view-area');
+    var directories = getAllDirectories(Object.keys(cards));
+
     var substringMatcher = function(strs) {
         return function findMatches(q, cb) {
             var matches, substringRegex;
@@ -84,6 +102,42 @@
        };
     };
 
+    var changeView = function(view, extra) {
+        // Make sure view is correct otherwise set default...
+        if (!(view == "browse" || view == "single")) {
+            view = "browse";
+            delete extra;
+        }
+
+        // Fix url...
+        let current_url = new URL(document.URL);
+        let params = new URLSearchParams(current_url.search);
+        if (view == "browse") {
+            if (extra) {
+                params.set('path', encodeURIComponent(extra));
+                updateBrowseInfo(extra);
+            } else {
+                params.delete('path');
+                updateBrowseInfo("");
+            }
+            params.delete('card');
+            $(".typeahead").typeahead('val', '');
+        } else if (view == "single" && extra) {
+            params.set('card', encodeURIComponent(extra));
+            params.delete('path');
+            updateCardInfo(extra);
+            $(".typeahead").typeahead('val', extra);
+        }
+        params.set('view', view);
+        window.history.replaceState({}, '', `${location.pathname}?${params}`);
+
+        // Only show view and hide others...
+        for (var i = 0; i < views.length; i++) {
+            if (views[i].id == `view-${view}`) { views[i].style.display = 'block'; }
+            else                               { views[i].style.display = 'none'; }
+        }
+        return true;
+    };
 
     var getCardInfo = function(cardName) {
         for (var shelf in cards) {
@@ -92,6 +146,55 @@
             }
         }
     };
+
+    var parentDir = function(dir) {
+        return dir ? dir.split("/").slice(0, -1).join("/") : false;
+    }
+
+    var appendBrowseLink = function(path, folderOpen) {
+        var pathlink;
+        var folderIcon;
+        
+        if (folderOpen) {
+            folderIcon = `<i class="fa fa-folder-open" style="color:orange"></i>`
+        } else {
+            folderIcon = `<i class="fa fa-folder"></i>`
+        }
+        
+        if (path) {
+            pathlink = `<a href="#" onclick="changeView('browse', '${path}')">${path}</a>`;
+        } else {
+            pathlink = `<a href="#" onclick="changeView('browse', '')">~root~</a>`;
+        }
+
+        $('#browse-info-location').append(`<div class='p-1'>${folderIcon} ${pathlink}</div>`);
+    };
+
+    var updateBrowseInfo = function(browsePath) {
+        $('#browse-info-location').html("");
+        if (browsePath === undefined) { browsePath = ""; }
+
+        // parent dir available as long as you are not in ~root~ ...
+        if (browsePath != "") { appendBrowseLink(parentDir(browsePath), false); }
+
+        // current directory...
+        appendBrowseLink(browsePath, true);
+
+        // show sub-directories...
+        directories.forEach(function (subpaths) {
+            if (browsePath === parentDir(subpaths)) { appendBrowseLink(subpaths, false); }
+        });
+
+        // show content ...
+        for (var cardName in cards[browsePath]) {
+            for (var setInfo in cards[browsePath][cardName]) {
+                let numCards = cards[browsePath][cardName][setInfo];
+                let card = `<a href="#" onclick="changeView('single', '${cardName}')">${cardName}</a>`;
+                $('#browse-info-location').append(`<div class='p-1'>${numCards}x ${card} [${setInfo}]</div>`);
+            }
+        }
+    };
+
     var updateCardInfo = function(cardName) {
         let cardInfo = getCardInfo(cardName);
         if (!cardInfo) { return; }
@@ -118,17 +221,20 @@
                  }
              }
 
-             for (var shelf in cards) {
-                 if (cardName in cards[shelf]) {
-                     for (var setInfo in cards[shelf][cardName]) {
-                         let numCards = cards[shelf][cardName][setInfo];
-                         $('#card-info-location').append("<div class='p-1'>" + numCards + "x " + setInfo + " @ " + shelf + "</div>");
-                     }
-                 }
+            // Locations
+            for (var shelf in cards) {
+                if (cardName in cards[shelf]) {
+                    for (var setInfo in cards[shelf][cardName]) {
+                        let numCards = cards[shelf][cardName][setInfo];
+                        let shelfPath = `<a href="#" onclick="changeView('browse', '${shelf}')">${shelf}</a>`;
+                        $('#card-info-location').append("<div class='p-1'>" + numCards + "x " + setInfo + " @ " + shelfPath + "</div>");
+                    }
+                }
             };
         });
     }
     $(document).ready(function(){
+        // initiate typeahead...
         let cardNames = Array.from(new Set(Object.keys(cards).map(path => (Object.keys(cards[path]))).flat()));
         $('#the-basics .typeahead').typeahead({
             hint: true,
@@ -141,21 +247,23 @@
             source: substringMatcher(cardNames),
         });
         $('.typeahead').bind('typeahead:select', function(ev, suggestion) {
-            updateCardInfo(suggestion);
-            let current_url = new URL(document.URL);
-            let params = new URLSearchParams(current_url.search);
-            params.set('card', encodeURIComponent(suggestion));
-            window.history.replaceState({}, '', `${location.pathname}?${params}`);
+            changeView('single', suggestion);
         });
+
+        // fix what is supposed to be shown initially based on url...
         const current_url = new URL(document.URL);
+        var extra;
+        var view = 'browse';  // default
         if (current_url.search) {
             const params = new URLSearchParams(current_url.search);
-            if (params.has('card')) {
-                const card_name = decodeURIComponent(params.get('card'));
-                $(".typeahead").typeahead('val', card_name);
-                updateCardInfo(card_name);
+            view = params.get('view', 'browse');
+            if (view == 'single') {
+                extra = params.has('card') ? decodeURIComponent(params.get('card')) : undefined;
+            } else if (view == 'browse') {
+                extra = params.has('path') ? decodeURIComponent(params.get('path')) : undefined;
             }
         }
+        changeView(view, extra);
     });
   
         </script>
@@ -166,38 +274,46 @@
                 <div class="col-6 text-center">
                     <div><b>b00ksh3lf</b></div>
                 </div>
+
             </div>
             <div class="row align-items-center justify-content-center">   
                 <div id="the-basics" class="col-xl-6 col-lg-11">
                     <input class="typeahead form-control form-control-lg" type="text" placeholder="Card search" width="100%">
                 </div>
             </div>
-            <div class="row p-1">   
-                <div class="col-xl-6 col-lg-11">
-                    <div id="card-info-img"></div>
+
+            <div id="view-single" class="view-active view-area" style="display: none">
+               <div class="row p-1">   
+                    <div class="col-xl-6 col-lg-11">
+                        <div id="card-info-img"></div>
+                    </div>
+                </div>
+                <div class="row  p-1">   
+                    <div class="col-xl-6 col-lg-11">
+                        <div id="card-info-name"></div>
+                    </div>
+                </div>
+                <div class="row p-1">   
+                    <div class="col-xl-6 col-lg-11">
+                        <div id="card-info-type"></div>
+                    </div>
+                </div>
+                <div class="row p-1">   
+                    <div class="col-xl-6 col-lg-11">
+                        <div id="card-info-oracle"></div>
+                    </div>
+                </div>
+                <div class="row p-1">   
+                    <div id="card-info-location" class="col-xl-6 col-lg-11 d-flex flex-column"></div>
+                </div>
+                <div class="row p-1">   
+                    <div id="card-info-links" class="col-xl-6 col-lg-11 d-flex flex-row p-1"></div>
                 </div>
             </div>
-            <div class="row  p-1">   
-                <div class="col-xl-6 col-lg-11">
-                    <div id="card-info-name"></div>
-                </div>
-            </div>
-            <div class="row p-1">   
-                <div class="col-xl-6 col-lg-11">
-                    <div id="card-info-type"></div>
-                </div>
-            </div>
-            <div class="row p-1">   
-                <div class="col-xl-6 col-lg-11">
-                    <div id="card-info-oracle"></div>
-                </div>
-            </div>
-            <div class="row p-1">   
-                <div id="card-info-location" class="col-xl-6 col-lg-11 d-flex flex-column">
-                </div>
-            </div>
-            <div class="row p-1">   
-                <div id="card-info-links" class="col-xl-6 col-lg-11 d-flex flex-row p-1">
+
+            <div id="view-browse" class="view-area" style="display: none">
+                <div class="row p-1">   
+                    <div id="browse-info-location" class="col-xl-6 col-lg-11 d-flex flex-column"></div>
                 </div>
             </div>
         </div>
