@@ -205,12 +205,18 @@
         var myURL = "https://api.scryfall.com/cards/" + cardInfo[0] + "/" + cardInfo[1];
         $.getJSON(myURL, function(data) {
              let front = null;
+             let card_image = null;
              if ('card_faces' in data) {
                  front = data['card_faces'][0]; // take only one side for now.
              } else {
                  front = data;
              }
-             $('#card-info-img').html('<img src=\'' + front['image_uris']['small'] + '\'/>');
+             if ('image_uris' in front) {
+                 card_image = front['image_uris'];
+             } else {
+                 card_image = data['image_uris'];
+             }
+             $('#card-info-img').html('<img src=\'' + card_image['small'] + '\'/>');
              $('#card-info-name').text(front['name'] + ' | ' + front['mana_cost']);
              $('#card-info-type').text(front['type_line']);
              $('#card-info-oracle').html(front['oracle_text'].replaceAll('\n', '<br/>'));
