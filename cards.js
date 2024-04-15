@@ -2762,9 +2762,6 @@ var cards ={
   "Swiftblade Vindicator": {
    "grn#203": 1
   },
-  "Swiftfoot Boots": {
-   "brr#58": 1
-  },
   "Sword of Once and Future": {
    "mom#265": 1
   },
@@ -2777,9 +2774,6 @@ var cards ={
   },
   "Sylvan Scrying": {
    "tsr#367": 1
-  },
-  "Talrand, Sky Summoner": {
-   "c15#109": 1
   },
   "Tatsunari, Toad Rider": {
    "neo#123": 1
@@ -2976,9 +2970,6 @@ var cards ={
   },
   "Waking the Trolls": {
    "khm#234": 2
-  },
-  "Walk the Aeons": {
-   "tsr#98#foil": 1
   },
   "War Room": {
    "cmr#361": 1
@@ -3872,8 +3863,8 @@ var cards ={
    "akh#49#foil": 1
   },
   "Cut // Ribbons": {
-   "akh#223#foil": 3,
-   "akh#223": 3
+   "akh#223#foil": 1,
+   "akh#223": 2
   },
   "Daring Saboteur": {
    "xln#49": 1
@@ -4226,7 +4217,7 @@ var cards ={
    "m15#68#foil": 1
   },
   "Metallurgic Summonings": {
-   "kld#56": 3,
+   "kld#56": 2,
    "kld#56#foil": 1
   },
   "Misdirection": {
@@ -4958,9 +4949,6 @@ var cards ={
    "rtr#63": 1,
    "mm3#66": 1
   },
-  "Devil's Play": {
-   "isd#140": 1
-  },
   "Devils' Playground": {
    "soi#151": 2
   },
@@ -5283,7 +5271,6 @@ var cards ={
    "ktk#18": 2
   },
   "Mastermind's Acquisition": {
-   "rix#77": 1,
    "rix#77#foil": 1
   },
   "Mastery of the Unseen": {
@@ -23058,6 +23045,9 @@ var cards ={
   "Chromatic Star": {
    "tsr#263": 4
   },
+  "Copperline Gorge": {
+   "som#225": 4
+  },
   "Gleeful Demolition": {
    "one#134": 4
   },
@@ -23107,6 +23097,9 @@ var cards ={
   },
   "Insolent Neonate": {
    "soi#168": 4
+  },
+  "Karplusan Forest": {
+   "dmu#379": 4
   },
   "Ox of Agonas": {
    "thb#147": 4
