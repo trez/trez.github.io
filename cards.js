@@ -12779,19 +12779,19 @@ var cards ={
  },
  "mtg/kuben/basic_lands": {
   "Forest": {
-   "thb#254#foil": 28
+   "thb#254#foil": 36
   },
   "Island": {
-   "thb#251#foil": 25
+   "thb#251#foil": 50
   },
   "Mountain": {
-   "thb#253#foil": 30
+   "thb#253#foil": 50
   },
   "Plains": {
-   "thb#250#foil": 20
+   "thb#250#foil": 26
   },
   "Swamp": {
-   "thb#252#foil": 20
+   "thb#252#foil": 29
   }
  },
  "mtg/kuben/maybeboard": {
