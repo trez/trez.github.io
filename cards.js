@@ -498,6 +498,7 @@ var cards ={
   },
   "Kothophed, Soul Hoarder": {
    "ori#104": 1,
+   "dmc#114": 1,
    "pori#104#foil": 1
   },
   "Krond the Dawn-Clad": {
@@ -4293,17 +4294,26 @@ var cards ={
   "Dubious Challenge": {
    "kld#152": 11
   },
+  "Elder Druid": {
+   "6ed#223": 1
+  },
   "Elderwood Scion": {
    "pca#88": 1
   },
   "Eldritch Evolution": {
    "emn#155": 2
   },
+  "Elephant Resurgence": {
+   "pcy#113": 4
+  },
   "Elvish Archdruid": {
    "m13#168": 1
   },
   "Elvish Champion": {
    "9ed#238": 1
+  },
+  "Elvish Vanguard": {
+   "ons#259": 1
   },
   "Emperor's Vanguard": {
    "xln#189": 1
@@ -4328,6 +4338,9 @@ var cards ={
   },
   "Evolutionary Leap": {
    "ori#176": 3
+  },
+  "Exploration": {
+   "usg#250": 2
   },
   "Failure // Comply": {
    "akh#221": 4
@@ -4402,6 +4415,9 @@ var cards ={
   "Gigantosaurus": {
    "m19#185": 1
   },
+  "Gigapede": {
+   "ons#264": 1
+  },
   "Gitaxian Probe": {
    "nph#35": 1
   },
@@ -4466,6 +4482,9 @@ var cards ={
   },
   "Heron's Grace Champion": {
    "emn#185": 1
+  },
+  "Hidden Predators": {
+   "usg#263": 1
   },
   "Honored Hierarch": {
    "ori#182": 2,
@@ -4549,6 +4568,12 @@ var cards ={
   "Krakilin": {
    "tmp#235": 1
   },
+  "Krosan Cloudscraper": {
+   "lgn#130": 1
+  },
+  "Krosan Colossus": {
+   "ons#270": 1
+  },
   "Kumena's Awakening": {
    "rix#42": 2
   },
@@ -4590,6 +4615,9 @@ var cards ={
    "kld#56": 2,
    "kld#56#foil": 1
   },
+  "Might of Oaks": {
+   "9ed#255": 1
+  },
   "Mindlink Mech": {
    "neo#62": 1
   },
@@ -4616,6 +4644,9 @@ var cards ={
    "mma#192": 1,
    "f09#7#foil": 2
   },
+  "Nantuko Cultivator": {
+   "tor#133": 2
+  },
   "Needle Spires": {
    "ogw#175": 2
   },
@@ -4638,6 +4669,9 @@ var cards ={
   },
   "Nobilis of War": {
    "mm2#195": 1
+  },
+  "Nut Collector": {
+   "ody#259": 1
   },
   "Oath of Ajani": {
    "aer#131": 1
@@ -4669,6 +4703,9 @@ var cards ={
   "Overwhelming Denial": {
    "ogw#61": 2
   },
+  "Pack Hunt": {
+   "nem#109": 1
+  },
   "Paradoxical Outcome": {
    "kld#60": 5,
    "kld#60#foil": 1
@@ -4681,6 +4718,9 @@ var cards ={
   },
   "Pearl Lake Ancient": {
    "ktk#49": 1
+  },
+  "Penumbra Wurm": {
+   "apc#84": 1
   },
   "Permeating Mass": {
    "emn#165": 3
@@ -4700,6 +4740,9 @@ var cards ={
   },
   "Port Town": {
    "soi#278": 1
+  },
+  "Possessed Centaur": {
+   "tor#137": 1
   },
   "Predatory Rampage": {
    "m13#180": 1
@@ -4760,11 +4803,17 @@ var cards ={
   "Return of the Wildspeaker": {
    "eld#172": 1
   },
+  "Rhox": {
+   "nem#112": 2
+  },
   "Ripjaw Raptor": {
    "xln#203": 1
   },
   "Rishkar's Expertise": {
    "aer#123": 1
+  },
+  "Rowen": {
+   "7ed#266": 1
   },
   "Ruins of Oran-Rief": {
    "ogw#176": 1
@@ -4793,6 +4842,15 @@ var cards ={
   },
   "Sandwurm Convergence": {
    "akh#183": 3
+  },
+  "Saproling Burst": {
+   "nem#113": 3
+  },
+  "Saproling Cluster": {
+   "nem#114": 2
+  },
+  "Saproling Symbiosis": {
+   "inv#209": 1
   },
   "Savage Knuckleblade": {
    "ktk#197": 2
@@ -4859,6 +4917,9 @@ var cards ={
   "Skarrg Goliath": {
    "gtc#133": 1
   },
+  "Skyshroud Behemoth": {
+   "nem#116": 1
+  },
   "Somberwald Sage": {
    "avr#194": 1
   },
@@ -4896,6 +4957,9 @@ var cards ={
   },
   "Squirrel Wrangler": {
    "pcy#127": 1
+  },
+  "Stag Beetle": {
+   "ons#285": 1
   },
   "Steely Resolve": {
    "ons#286": 1
@@ -4946,6 +5010,9 @@ var cards ={
   "Thopter Spy Network": {
    "ori#79": 4
   },
+  "Thorn Elemental": {
+   "uds#123": 1
+  },
   "Thousand Winds": {
    "ktk#58": 1,
    "ddn#58": 1
@@ -4958,6 +5025,9 @@ var cards ={
   },
   "Torrent Sculptor // Flamethrower Sonata": {
    "stx#159": 1
+  },
+  "Tranquil Grove": {
+   "6ed#258": 1
   },
   "Trap Essence": {
    "ktk#209": 3
@@ -5010,11 +5080,17 @@ var cards ={
    "ktk#211": 2,
    "otp#58": 1
   },
+  "Vine Dryad": {
+   "mmq#284": 1
+  },
   "Vivien's Invocation": {
    "m19#209": 1
   },
   "Vizier of Many Faces": {
    "akh#74": 3
+  },
+  "Voice of the Woods": {
+   "ons#297": 2
   },
   "Waker of the Wilds": {
    "xln#215": 1
@@ -5079,6 +5155,9 @@ var cards ={
   },
   "Wren's Run Packmaster": {
    "cma#171": 1
+  },
+  "Xantid Swarm": {
+   "scg#135": 1
   }
  },
  "mtg/collection/binder_profolio_green": {
@@ -5659,6 +5738,9 @@ var cards ={
   "Ancient Hellkite": {
    "m11#122": 2
   },
+  "Angel of Finality": {
+   "afc#63": 1
+  },
   "Anger of the Gods": {
    "ths#112": 1
   },
@@ -5682,6 +5764,9 @@ var cards ={
   },
   "Archangel of Strife": {
    "cma#5": 1
+  },
+  "Archangel of Wrath": {
+   "dmu#3": 1
   },
   "Archfiend of Depravity": {
    "frf#62": 2
@@ -5737,7 +5822,8 @@ var cards ={
    "pcy#4": 1
   },
   "Blind Obedience": {
-   "c16#59": 1
+   "c16#59": 1,
+   "wot#1": 1
   },
   "Blood Scrivener": {
    "dgm#22": 2,
@@ -5759,11 +5845,17 @@ var cards ={
   "Boompile": {
    "c16#52": 1
   },
+  "Bottomless Pit": {
+   "sth#51": 1
+  },
   "Brain in a Jar": {
    "soi#252": 2
   },
   "Brass's Bounty": {
    "rix#94": 1
+  },
+  "Bringer of the Last Gift": {
+   "lci#337": 1
   },
   "Brittle Effigy": {
    "m11#202": 1
@@ -5801,6 +5893,9 @@ var cards ={
   "Chain Reaction": {
    "wwk#74": 1
   },
+  "Chainer, Dementia Master": {
+   "tor#56": 1
+  },
   "Champion of Dusk": {
    "rix#64": 1
   },
@@ -5833,6 +5928,9 @@ var cards ={
   },
   "Corrupted Grafstone": {
    "soi#253": 1
+  },
+  "Court of Ardenvale": {
+   "woc#21": 1
   },
   "Crater's Claws": {
    "ktk#106": 2
@@ -5889,6 +5987,9 @@ var cards ={
   },
   "Devils' Playground": {
    "soi#151": 2
+  },
+  "Devouring Strossus": {
+   "inv#101": 1
   },
   "Dictate of Heliod": {
    "ddo#8": 1
@@ -6056,6 +6157,9 @@ var cards ={
   "Harness the Storm": {
    "soi#163": 1
   },
+  "Harsh Mercy": {
+   "cmm#825": 1
+  },
   "Harvester of Souls": {
    "ddq#60": 1
   },
@@ -6098,6 +6202,9 @@ var cards ={
   "Hypnotic Specter": {
    "3ed#115": 1
   },
+  "Ichorid": {
+   "tor#65": 1
+  },
   "Imminent Doom": {
    "hou#98": 1
   },
@@ -6125,6 +6232,9 @@ var cards ={
   "Jar of Eyeballs": {
    "c13#244": 1
   },
+  "Jazal Goldmane": {
+   "dmc#102": 1
+  },
   "Kalemne's Captain": {
    "c15#5": 1
   },
@@ -6146,6 +6256,9 @@ var cards ={
   "Lashwrithe": {
    "c14#245": 1
   },
+  "Last Laugh": {
+   "tor#68": 1
+  },
   "Lathnu Hellion": {
    "kld#121": 2
   },
@@ -6164,6 +6277,9 @@ var cards ={
   },
   "Liliana's Reaver": {
    "m14#103": 2
+  },
+  "Livio, Oathsworn Sentinel": {
+   "cmr#31": 1
   },
   "Lodestone Golem": {
    "wwk#127": 3
@@ -6192,6 +6308,9 @@ var cards ={
   },
   "Magus of the Wheel": {
    "c15#27": 1
+  },
+  "Marauding Knight": {
+   "inv#110": 1
   },
   "Mardu Strike Leader": {
    "frf#75": 1
@@ -6314,7 +6433,11 @@ var cards ={
    "aer#170#foil": 1
   },
   "Phyrexian Plaguelord": {
-   "cma#61": 1
+   "cma#61": 1,
+   "8ed#153": 1
+  },
+  "Phyrexian Rebirth": {
+   "onc#86": 1
   },
   "Pia's Revolution": {
    "aer#91#foil": 1
@@ -6333,6 +6456,9 @@ var cards ={
   },
   "Prepare // Fight": {
    "akh#220": 3
+  },
+  "Progenitor Exarch": {
+   "pmom#32p": 1
   },
   "Providence": {
    "emn#37": 7
@@ -6355,6 +6481,9 @@ var cards ={
   "Ratchet Bomb": {
    "m14#215": 2
   },
+  "Realm-Cloaked Giant // Cast Off": {
+   "afc#70": 1
+  },
   "Release the Gremlins": {
    "aer#96": 3
   },
@@ -6366,6 +6495,9 @@ var cards ={
   },
   "Revel in Riches": {
    "xln#117": 2
+  },
+  "Robaran Mercenaries": {
+   "dmc#22": 1
   },
   "Ruin Raider": {
    "xln#118": 2
@@ -6582,11 +6714,17 @@ var cards ={
   "Twinflame": {
    "jou#115": 1
   },
+  "Unbreakable Formation": {
+   "rna#29": 1
+  },
   "Unbreathing Horde": {
    "ddq#66": 1
   },
   "Unexpectedly Absent": {
    "cma#27": 1
+  },
+  "Valiant Endeavor": {
+   "afc#13": 1
   },
   "Vanquisher's Banner": {
    "xln#251": 1
@@ -6606,6 +6744,9 @@ var cards ={
   "Wakening Sun's Avatar": {
    "xln#44": 1
   },
+  "Warden of the Inner Sky": {
+   "lci#43": 1
+  },
   "Warstorm Surge": {
    "pca#54": 1
   },
@@ -6622,7 +6763,8 @@ var cards ={
    "eld#36": 1
   },
   "Wretched Confluence": {
-   "cma#74": 1
+   "cma#74": 1,
+   "cmm#200": 2
   },
   "Yahenni's Expertise": {
    "aer#75": 2
