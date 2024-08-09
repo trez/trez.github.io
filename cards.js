@@ -17,10 +17,14 @@ var cards ={
    "bfz#139": 1
   },
   "Alesha, Who Smiles at Death": {
-   "frf#90": 3
+   "frf#90": 3,
+   "dmc#118": 1
   },
   "Alhammarret, High Arbiter": {
    "ori#43": 5
+  },
+  "Anafenza, Kin-Tree Spirit": {
+   "dmc#97": 1
   },
   "Anax and Cymede": {
    "ths#186": 2
@@ -53,9 +57,15 @@ var cards ={
    "rtr#86": 1,
    "rtr#86#foil": 1
   },
+  "Ashling the Pilgrim": {
+   "dmc#119": 1
+  },
   "Astral Cornucopia": {
    "bng#157": 3,
    "c16#243": 1
+  },
+  "Atalya, Samite Master": {
+   "inv#4": 1
   },
   "Atarka, World Render": {
    "frf#149": 1
@@ -79,11 +89,17 @@ var cards ={
    "cma#31": 1,
    "chk#52": 1
   },
+  "Azlask, the Swelling Scourge": {
+   "m3c#5": 1
+  },
   "Azor, the Lawbringer": {
    "rix#154": 1
   },
   "Balan, Wandering Knight": {
    "c17#2": 1
+  },
+  "Balthor the Defiled": {
+   "jud#61": 1
   },
   "Banefire": {
    "m19#130": 1
@@ -134,6 +150,9 @@ var cards ={
   },
   "Bruna, the Fading Light": {
    "emn#15a": 4
+  },
+  "Captain Lannery Storm": {
+   "dmc#120": 1
   },
   "Captain of the Watch": {
    "m13#8": 1,
@@ -236,6 +255,9 @@ var cards ={
   "Eidolon of the Great Revel": {
    "jou#94": 3
   },
+  "Eladamri, Korvecdal": {
+   "mh3#149": 1
+  },
   "Elite Arcanist": {
    "m14#54": 1
   },
@@ -255,6 +277,7 @@ var cards ={
    "ktk#8": 1
   },
   "Endrek Sahr, Master Breeder": {
+   "cmm#155": 1,
    "c13#76": 1
   },
   "Epic Experiment": {
@@ -262,6 +285,9 @@ var cards ={
   },
   "Erebos's Titan": {
    "ori#94": 1
+  },
+  "Etali, Primal Storm": {
+   "dmc#121": 1
   },
   "Etrata, the Silencer": {
    "grn#170": 2
@@ -289,6 +315,9 @@ var cards ={
   },
   "False Prophet": {
    "uds#6": 1
+  },
+  "Fangorn, Tree Shepherd": {
+   "ltr#166": 1
   },
   "Fate Unraveler": {
    "bng#68": 1
@@ -335,6 +364,9 @@ var cards ={
   "Foundry Champion": {
    "gtc#165": 1
   },
+  "Frodo, Sauron's Bane": {
+   "ltr#448#foil": 1
+  },
   "Frontline Medic": {
    "gtc#12": 1
   },
@@ -364,6 +396,9 @@ var cards ={
   },
   "Goblin Piledriver": {
    "ori#151": 2
+  },
+  "Greel, Mind Raker": {
+   "pcy#66": 1
   },
   "Guild Feud": {
    "rtr#97": 2
@@ -395,7 +430,8 @@ var cards ={
    "chk#212": 1
   },
   "Heartless Hidetsugu": {
-   "cns#144": 1
+   "cns#144": 1,
+   "cmm#231": 1
   },
   "Helm of the Gods": {
    "ori#230": 2
@@ -437,6 +473,9 @@ var cards ={
   "Infinite Obliteration": {
    "ori#103": 1
   },
+  "Irini Sengir": {
+   "hml#54": 2
+  },
   "Ishkanah, Grafwidow": {
    "emn#162#foil": 1
   },
@@ -449,6 +488,9 @@ var cards ={
   "Jace's Mindseeker": {
    "m14#61": 2
   },
+  "Jacob Frye": {
+   "acr#27": 1
+  },
   "Jalira, Master Polymorphist": {
    "m15#64": 1
   },
@@ -459,17 +501,26 @@ var cards ={
   "Jori En, Ruin Diver": {
    "ogw#155": 1
   },
+  "Josu Vess, Lich Knight": {
+   "dmc#113": 1
+  },
   "Jugan, the Rising Star": {
    "ima#172": 1
   },
   "Kaalia, Zenith Seeker": {
    "m20#210": 1
   },
+  "Kaervek, the Punisher": {
+   "otj#92": 1
+  },
   "Kamahl, Pit Fighter": {
    "ddl#16": 1
   },
   "Kambal, Consul of Allocation": {
    "kld#183": 2
+  },
+  "Kari Zev, Skyship Raider": {
+   "dmc#123": 1
   },
   "Kazarov, Sengir Pureblood": {
    "dom#96": 1
@@ -500,6 +551,9 @@ var cards ={
    "ori#104": 1,
    "dmc#114": 1,
    "pori#104#foil": 1
+  },
+  "Krenko, Tin Street Kingpin": {
+   "dmc#124": 1
   },
   "Krond the Dawn-Clad": {
    "pca#99": 1
@@ -582,6 +636,9 @@ var cards ={
   "Mogis, God of Slaughter": {
    "bng#151": 1
   },
+  "Molimo, Maro-Sorcerer": {
+   "inv#199": 1
+  },
   "Moonring Mirror": {
    "chk#262": 1
   },
@@ -599,6 +656,9 @@ var cards ={
   },
   "Nazahn, Revered Bladesmith": {
    "c17#44#foil": 1
+  },
+  "Neheb, Dreadhorde Champion": {
+   "dmc#125": 1
   },
   "Neheb, the Worthy": {
    "akh#203": 3
@@ -619,6 +679,7 @@ var cards ={
    "mm3#176": 1
   },
   "Odric, Lunarch Marshal": {
+   "dmc#103": 1,
    "soi#31": 1
   },
   "Odric, Master Tactician": {
@@ -829,7 +890,8 @@ var cards ={
    "bng#27": 1
   },
   "Sram, Senior Edificer": {
-   "aer#23": 2
+   "aer#23": 2,
+   "afc#72": 1
   },
   "Stolen Identity": {
    "gtc#53": 2,
@@ -887,6 +949,9 @@ var cards ={
   "The Magic Mirror": {
    "eld#51": 1
   },
+  "The Peregrine Dynamo": {
+   "dmc#19": 1
+  },
   "The Scorpion God": {
    "hou#146#foil": 1
   },
@@ -907,6 +972,9 @@ var cards ={
   },
   "Trait Doctoring": {
    "dgm#18": 1
+  },
+  "Traxos, Scourge of Kroog": {
+   "dmc#195": 1
   },
   "Treasury Thrull": {
    "gtc#201": 1
@@ -942,6 +1010,9 @@ var cards ={
   "Vexing Devil": {
    "avr#164": 1
   },
+  "Visara the Dreadful": {
+   "ons#179": 2
+  },
   "Volatile Rig": {
    "rtr#236": 2
   },
@@ -975,12 +1046,21 @@ var cards ={
   "Zada, Hedron Grinder": {
    "bfz#162": 5
   },
+  "Zeriam, Golden Wind": {
+   "dmc#5": 1
+  },
+  "Zetalpa, Primal Dawn": {
+   "dmc#108": 1
+  },
   "Zhur-Taa Ancient": {
    "dgm#119": 3,
    "dgm#119#foil": 1
   },
   "Zurgo Helmsmasher": {
    "ktk#214": 1
+  },
+  "\u00c9omer, Marshal of Rohan": {
+   "ltr#428": 1
   }
  },
  "mtg/collection/admiral_beckett_brass_maybeboard": {
@@ -5714,6 +5794,9 @@ var cards ={
   "Aetherworks Marvel": {
    "kld#193": 1
   },
+  "Aisha of Sparks and Smoke": {
+   "slx#12": 1
+  },
   "Ajani's Last Stand": {
    "m19#4": 1
   },
@@ -5994,6 +6077,9 @@ var cards ={
   "Dictate of Heliod": {
    "ddo#8": 1
   },
+  "Dire Flail // Dire Blunderbuss": {
+   "lci#145#foil": 1
+  },
   "Dire Fleet Poisoner": {
    "rix#68": 1
   },
@@ -6014,6 +6100,9 @@ var cards ={
   },
   "Dragon-Style Twins": {
    "ktk#108": 3
+  },
+  "Dragonwing Glider": {
+   "pone#128s#foil": 1
   },
   "Drakestown Forgotten": {
    "cns#27": 2
@@ -6190,6 +6279,9 @@ var cards ={
   "Hero of Goma Fada": {
    "bfz#31": 4
   },
+  "Hit the Mother Lode": {
+   "lci#153": 1
+  },
   "Hound of Griselbrand": {
    "avr#141": 1
   },
@@ -6247,6 +6339,10 @@ var cards ={
   "Key to the City": {
    "kld#220": 2
   },
+  "Kill Switch": {
+   "nem#133": 1,
+   "nem#133#foil": 1
+  },
   "Kirtar's Wrath": {
    "cma#14": 1
   },
@@ -6268,6 +6364,9 @@ var cards ={
   },
   "Leyline of Sanctity": {
    "mm2#23": 1
+  },
+  "Liability": {
+   "mmq#144": 1
   },
   "Liliana's Contract": {
    "m19#107": 1
@@ -6306,8 +6405,14 @@ var cards ={
   "Mage-Ring Responder": {
    "ori#232": 3
   },
+  "Magmatic Galleon": {
+   "lci#157": 1
+  },
   "Magus of the Wheel": {
    "c15#27": 1
+  },
+  "Mana Flare": {
+   "wot#46": 1
   },
   "Marauding Knight": {
    "inv#110": 1
@@ -6452,6 +6557,7 @@ var cards ={
    "bfz#42": 2
   },
   "Predator, Flagship": {
+   "nem#135": 2,
    "cma#225": 1
   },
   "Prepare // Fight": {
@@ -6483,6 +6589,9 @@ var cards ={
   },
   "Realm-Cloaked Giant // Cast Off": {
    "afc#70": 1
+  },
+  "Redcap Gutter-Dweller": {
+   "woe#146": 1
   },
   "Release the Gremlins": {
    "aer#96": 3
@@ -6714,6 +6823,9 @@ var cards ={
   "Twinflame": {
    "jou#115": 1
   },
+  "Umbilicus": {
+   "usg#312": 1
+  },
   "Unbreakable Formation": {
    "rna#29": 1
   },
@@ -6749,6 +6861,9 @@ var cards ={
   },
   "Warstorm Surge": {
    "pca#54": 1
+  },
+  "Well of Discovery": {
+   "pcy#140": 1
   },
   "White Sun's Zenith": {
    "c17#78": 1
