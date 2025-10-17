@@ -4241,6 +4241,11 @@ var cards ={
   "Astral Cornucopia": {
    "brr#5": 1
   },
+  "Banner of Kinship": {
+   "fdn#127": 1,
+   "fdn#127#foil": 1,
+   "fdn#352": 1
+  },
   "Blade of the Bloodchief": {
    "zen#196": 1
   },
@@ -4298,6 +4303,9 @@ var cards ={
   "Dream Chisel": {
    "ons#308": 1
   },
+  "Echoes of Eternity": {
+   "mh3#4": 2
+  },
   "Electrostatic Pummeler": {
    "kld#210": 4
   },
@@ -4334,6 +4342,9 @@ var cards ={
   },
   "Hedron Archive": {
    "tsr#395": 1
+  },
+  "Helvault": {
+   "inr#266": 1
   },
   "Herigast, Erupting Nullkite": {
    "mh3#8": 1
@@ -4437,14 +4448,20 @@ var cards ={
   "Phyrexian Colossus": {
    "7ed#311": 1
   },
+  "Phyrexian Fleshgorger": {
+   "bro#121": 1
+  },
   "Pithing Needle": {
    "rtr#231": 1
   },
   "Platinum Angel": {
    "brr#41": 1
   },
+  "Precursor Golem": {
+   "brr#42": 1
+  },
   "Quicksilver Amulet": {
-   "brr#45": 1
+   "brr#45": 2
   },
   "Quicksilver Fountain": {
    "mrd#233": 2
@@ -4482,6 +4499,10 @@ var cards ={
   "Scrapheap Scrounger": {
    "kld#231": 2
   },
+  "Scrawling Crawler": {
+   "fdn#132": 1,
+   "fdn#354#foil": 1
+  },
   "Seer's Sundial": {
    "cmr#470": 1,
    "c18#221": 1,
@@ -4489,6 +4510,9 @@ var cards ={
   },
   "Self-Assembler": {
    "brr#51": 1
+  },
+  "Semblance Anvil": {
+   "brr#52": 1
   },
   "Sigiled Sword of Valeron": {
    "m19#244": 1
@@ -4504,6 +4528,13 @@ var cards ={
   },
   "Sol Talisman": {
    "mh2#236": 1
+  },
+  "Solemn Simulacrum": {
+   "fdn#257": 1,
+   "fdn#729#foil": 2
+  },
+  "Steel Seraph": {
+   "bro#38": 1
   },
   "Stoneforge Masterwork": {
    "ogw#166": 1
@@ -4558,11 +4589,17 @@ var cards ={
   "Ulamog, the Defiler": {
    "mh3#15": 2
   },
+  "Unwinding Clock": {
+   "brr#61": 1
+  },
   "Urza's Blueprints": {
    "ulg#137": 1
   },
   "Urza's Filter": {
    "inv#318": 1
+  },
+  "Urza's Incubator": {
+   "mh3#297": 1
   },
   "Vanquisher's Banner": {
    "tsr#402": 1
@@ -9264,11 +9301,14 @@ var cards ={
   "Agent of the Fates": {
    "ths#76": 1
   },
+  "Alpharael, Stonechosen": {
+   "eoe#87": 1
+  },
   "Archfiend of the Dross": {
    "pone#82s#foil": 1
   },
   "Ashnod, Flesh Mechanist": {
-   "bro#84": 2
+   "bro#84": 3
   },
   "Awaken the Erstwhile": {
    "rna#61": 1
@@ -9288,9 +9328,18 @@ var cards ={
   "Black Sun's Twilight": {
    "one#84": 1
   },
+  "Blasphemous Edict": {
+   "fdn#459": 1,
+   "fdn#57": 1
+  },
   "Bloated Processor": {
    "mom#93": 2,
    "mom#93#foil": 1
+  },
+  "Blood Artist": {
+   "inr#97": 1,
+   "plst#C17-99": 1,
+   "2x2#352": 1
   },
   "Bloodtracker": {
    "c18#14": 1
@@ -9299,6 +9348,7 @@ var cards ={
    "pcy#57": 1
   },
   "Braids, Cabal Minion": {
+   "mh2#273": 1,
    "mh2#273#foil": 1
   },
   "Brink of Madness": {
@@ -9310,11 +9360,21 @@ var cards ={
   "Callous Bloodmage": {
    "stx#66": 1
   },
+  "Captivating Vampire": {
+   "inr#100": 1,
+   "inr#374": 1
+  },
   "Caustic Bronco": {
    "otj#82": 2
   },
+  "Chthonian Nightmare": {
+   "mh3#83": 1
+  },
   "Coffin Puppets": {
    "pcy#60": 3
+  },
+  "Collective Brutality": {
+   "inr#101": 1
   },
   "Concealing Curtains // Revealing Eye": {
    "vow#101": 1
@@ -9322,8 +9382,17 @@ var cards ={
   "Consume the Meek": {
    "roe#100": 1
   },
+  "Crabomination": {
+   "mh3#85": 2
+  },
   "Crippling Fear": {
    "cmm#862": 1
+  },
+  "Cryptcaller Chariot": {
+   "dft#306#foil": 1
+  },
+  "Cursecloth Wrappings": {
+   "dft#81": 1
   },
   "Darkest Hour": {
    "7ed#128": 1
@@ -9340,14 +9409,23 @@ var cards ={
   "Demonic Embrace": {
    "m21#95": 1
   },
+  "Demonic Junker": {
+   "dft#83": 1
+  },
+  "Demonic Tutor": {
+   "3ed#105": 1
+  },
   "Devouring Sugarmaw // Have for Dinner": {
    "woe#224": 1
   },
   "Diabolic Intent": {
-   "bro#89": 1
+   "bro#89": 2
   },
   "Do or Die": {
    "inv#102": 1
+  },
+  "Drana, Liberator of Malakir": {
+   "dmc#111": 1
   },
   "Dread Wanderer": {
    "akh#88": 1
@@ -9357,6 +9435,12 @@ var cards ={
   },
   "Drinker of Sorrow": {
    "lgn#66": 1
+  },
+  "Eddie Brock // Venom, Lethal Protector": {
+   "spm#55": 1
+  },
+  "Edgar's Awakening": {
+   "inr#108": 1
   },
   "Emperor of Bones": {
    "mh3#90": 1,
@@ -9374,8 +9458,15 @@ var cards ={
   "Extirpate": {
    "tsr#114": 1
   },
+  "Flare of Malice": {
+   "mh3#95": 2
+  },
   "Gangrenous Goliath": {
    "ons#150": 1
+  },
+  "Gas Guzzler": {
+   "dft#85#foil": 1,
+   "dft#85": 2
   },
   "Gelatinous Cube": {
    "afr#313": 1
@@ -9385,6 +9476,9 @@ var cards ={
   },
   "Ghastly Conscription": {
    "frf#70": 1
+  },
+  "Gix, Yawgmoth Praetor": {
+   "bro#95": 1
   },
   "Glistening Oil": {
    "nph#62": 1
@@ -9400,6 +9494,9 @@ var cards ={
   },
   "Grim Tutor": {
    "m21#103": 1
+  },
+  "Griselbrand": {
+   "inr#115": 1
   },
   "Gumdrop Poisoner // Tempt with Treats": {
    "pwoe#93s#foil": 1
@@ -9428,6 +9525,9 @@ var cards ={
   "Inscription of Ruin": {
    "znr#108": 1
   },
+  "Invasion of Innistrad // Deluge of the Dead": {
+   "inr#120": 1
+  },
   "Isildur's Fateful Strike": {
    "ltr#91": 1
   },
@@ -9444,17 +9544,26 @@ var cards ={
   "Lich-Knights' Conquest": {
    "woe#96": 1
   },
+  "Liliana of the Dark Realms": {
+   "m14#102": 1
+  },
   "Liliana's Scorn": {
    "m21#329": 2
   },
   "Liliana's Standard Bearer": {
-   "m21#110": 3
+   "m21#110": 4
   },
   "Liliana's Triumph": {
    "tsr#327": 1
   },
+  "Liliana, Death Mage": {
+   "m21#328#foil": 1
+  },
+  "Lobelia Sackville-Baggins": {
+   "ltr#399": 1
+  },
   "Magus of the Bridge": {
-   "mh2#92": 1
+   "mh2#92": 2
   },
   "Massacre Wurm": {
    "m21#114": 1
@@ -9465,17 +9574,33 @@ var cards ={
   "Moira, Urborg Haunt": {
    "dmc#6": 1
   },
+  "Necrogoyf": {
+   "mh2#93": 1
+  },
   "Necropotence": {
    "wot#31": 2
   },
   "Nefashu": {
    "scg#70": 1
   },
+  "Nethergoyf": {
+   "mh3#103": 1
+  },
   "Night Dealings": {
    "chk#132": 1
   },
+  "Nine-Lives Familiar": {
+   "fdn#66": 2,
+   "fdn#321": 1
+  },
   "Noxious Gearhulk": {
    "kld#96": 1
+  },
+  "Ob Nixilis Reignited": {
+   "bfz#119": 3
+  },
+  "Ophiomancer": {
+   "mh3#276": 1
   },
   "Painful Quandary": {
    "som#73": 1,
@@ -9491,6 +9616,9 @@ var cards ={
    "spg#42": 1,
    "mh2#96#foil": 1
   },
+  "Phyrexian Arena": {
+   "fdn#180": 1
+  },
   "Pitiless Horde": {
    "dtk#112": 1
   },
@@ -9499,6 +9627,9 @@ var cards ={
   },
   "Polluted Bonds": {
    "wot#34": 1
+  },
+  "Profane Tutor": {
+   "mh2#97": 1
   },
   "Quest for the Nihil Stone": {
    "wwk#64": 1
@@ -9516,7 +9647,7 @@ var cards ={
    "pcy#77": 2
   },
   "Ripples of Undeath": {
-   "mh3#107": 1
+   "mh3#107": 3
   },
   "Ritual of Soot": {
    "grn#84": 1
@@ -9527,6 +9658,10 @@ var cards ={
   "Rotlung Reanimator": {
    "ons#164": 2
   },
+  "Rune-Scarred Demon": {
+   "fdn#184": 4,
+   "fdn#184#foil": 1
+  },
   "Sadistic Sacrament": {
    "zen#110": 1
   },
@@ -9536,17 +9671,30 @@ var cards ={
   "Scheming Symmetry": {
    "m20#113": 1
   },
+  "Season of Loss": {
+   "blb#112": 1
+  },
   "Sengir, the Dark Baron": {
    "cmr#722#foil": 2
   },
   "Shadow of the Enemy": {
    "ltr#424": 1
   },
+  "Shilgengar, Sire of Famine": {
+   "mh3#109": 2
+  },
   "Shriekmaw": {
    "tsr#331": 1
   },
+  "Sidisi, Regent of the Mire": {
+   "tdm#92#foil": 1,
+   "tdm#92": 1
+  },
   "Skeletal Vampire": {
    "c17#126": 1
+  },
+  "Skirsdag High Priest": {
+   "inr#132": 1
   },
   "Slaughter Pact": {
    "tsr#138": 1
@@ -9576,6 +9724,9 @@ var cards ={
   "Stronghold Arena": {
    "dmu#110": 2
   },
+  "Summon: Primal Odin": {
+   "fin#121": 1
+  },
   "Surgical Extraction": {
    "otp#19": 1
   },
@@ -9588,6 +9739,16 @@ var cards ={
   "Tergrid, God of Fright // Tergrid's Lantern": {
    "khm#112": 1
   },
+  "Termination Facilitator": {
+   "j22#28": 1
+  },
+  "The Last Ride": {
+   "dft#94": 1
+  },
+  "The Sibsig Ceremony": {
+   "tdm#91": 2,
+   "tdm#340": 1
+  },
   "Thieves' Guild Enforcer": {
    "m21#125": 2
   },
@@ -9597,6 +9758,9 @@ var cards ={
   "Torgaar, Famine Incarnate": {
    "dom#108": 1
   },
+  "Toxic Deluge": {
+   "mh3#277": 1
+  },
   "Tymaret Calls the Dead": {
    "pthb#118s#foil": 1,
    "thb#118": 1
@@ -9604,17 +9768,28 @@ var cards ={
   "Undercity Plague": {
    "gtc#83": 1
   },
+  "Unholy Annex // Ritual Chamber": {
+   "dsk#118": 2
+  },
   "Vadmir, New Blood": {
    "otj#113": 1
   },
   "Voldaren Bloodcaster // Bloodbat Summoner": {
-   "vow#137": 1
+   "vow#137": 1,
+   "inr#138": 1
+  },
+  "Warren Soultrader": {
+   "mh3#110": 1
   },
   "Zombie Apocalypse": {
    "plst#MIC-131": 1
   },
   "Zombify": {
    "ody#171": 1
+  },
+  "Zul Ashur, Lich Lord": {
+   "fdn#326#foil": 1,
+   "fdn#77": 2
   }
  },
  "mtg/collection/long_box": {
@@ -9716,9 +9891,6 @@ var cards ={
   },
   "Deserted Temple": {
    "ody#320": 1
-  },
-  "Diabolic Intent": {
-   "bro#89": 1
   },
   "Dreadbore": {
    "rtr#157": 1
@@ -13793,9 +13965,6 @@ var cards ={
   },
   "Cultivator Colossus": {
    "vow#195": 1
-  },
-  "Demonic Tutor": {
-   "3ed#105": 1
   },
   "Dismember": {
    "mm2#79": 1
