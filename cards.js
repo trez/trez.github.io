@@ -3393,14 +3393,23 @@ var cards ={
   "Chain of Vapor": {
    "ons#73": 4
   },
+  "Chalice of the Void": {
+   "tsr#390": 1
+  },
   "Changeling Outcast": {
    "mh1#82": 4
   },
   "Chord of Calling": {
    "m15#172": 4
   },
+  "Coiling Oracle": {
+   "rvr#172": 4
+  },
   "Containment Construct": {
    "neo#243": 4
+  },
+  "Crop Rotation": {
+   "ulg#98": 3
   },
   "Dark Ritual": {
    "3ed#99": 4
@@ -3425,6 +3434,9 @@ var cards ={
   },
   "Emry, Lurker of the Loch": {
    "eld#43": 4
+  },
+  "Ephemerate": {
+   "mh1#7": 4
   },
   "Fatal Push": {
    "aer#57": 4
@@ -3453,9 +3465,6 @@ var cards ={
   "Great Furnace": {
    "mrd#282": 4
   },
-  "Grist, the Hunger Tide": {
-   "mh2#368": 4
-  },
   "Gurmag Angler": {
    "tsr#324": 4
   },
@@ -3467,7 +3476,7 @@ var cards ={
    "ema#92#foil": 4
   },
   "Insolent Neonate": {
-   "soi#168": 2
+   "soi#168": 3
   },
   "Inti, Seneschal of the Sun": {
    "lci#156": 1
@@ -3498,11 +3507,17 @@ var cards ={
   "Lotus Petal": {
    "plst#TMP-294": 4
   },
+  "L\u00f3rien Revealed": {
+   "ltr#60": 4
+  },
   "Manamorphose": {
    "shm#211": 4
   },
+  "Memnite": {
+   "som#174": 4
+  },
   "Mishra's Bauble": {
-   "brr#34": 4,
+   "brr#34": 7,
    "ima#221": 2,
    "csp#138": 2
   },
@@ -3512,6 +3527,15 @@ var cards ={
   "Monastery Swiftspear": {
    "ktk#118": 4
   },
+  "Null Elemental Blast": {
+   "mh3#12": 4
+  },
+  "Null Rod": {
+   "wth#154": 2
+  },
+  "Ovalchase Daredevil": {
+   "kld#97": 3
+  },
   "Ox of Agonas": {
    "thb#147": 1
   },
@@ -3520,6 +3544,15 @@ var cards ={
   },
   "Pattern of Rebirth": {
    "uds#115": 4
+  },
+  "Phyrexian Devourer": {
+   "all#125": 2
+  },
+  "Phyrexian Dreadnought": {
+   "mir#315": 1
+  },
+  "Priest of Titania": {
+   "mh3#286": 4
   },
   "Prismatic Ending": {
    "mh2#25": 4
@@ -3532,6 +3565,9 @@ var cards ={
   },
   "Rundvelt Hordemaster": {
    "dmu#142": 4
+  },
+  "Rune Snag": {
+   "csp#46": 4
   },
   "Sai, Master Thopterist": {
    "m19#69": 4
@@ -3546,7 +3582,7 @@ var cards ={
    "stx#272": 4
   },
   "Sigarda's Aid": {
-   "emn#41": 3
+   "emn#41": 4
   },
   "Simian Spirit Guide": {
    "tsr#190": 4
@@ -3569,6 +3605,9 @@ var cards ={
   "Stomping Ground": {
    "gtc#247": 2
   },
+  "Stubborn Denial": {
+   "ktk#56": 3
+  },
   "Surgical Extraction": {
    "nph#74": 4
   },
@@ -3581,6 +3620,9 @@ var cards ={
   "Temur Battle Rage": {
    "frf#116": 4
   },
+  "Thought Lash": {
+   "all#39": 2
+  },
   "Thought Monitor": {
    "mh2#71": 4
   },
@@ -3590,11 +3632,17 @@ var cards ={
   "Thoughtseize": {
    "ths#107": 4
   },
+  "Troll of Khazad-d\u00fbm": {
+   "ltr#111": 2
+  },
   "Urza's Saga": {
    "mh2#259": 4
   },
   "Veil of Summer": {
    "m20#198": 4
+  },
+  "Vexing Bauble": {
+   "mh3#212": 4
   },
   "Vexing Devil": {
    "avr#164": 4
@@ -4759,9 +4807,6 @@ var cards ={
   },
   "Oviya, Automech Artisan": {
    "dft#173": 1
-  },
-  "Pawpatch Recruit": {
-   "blb#187": 1
   },
   "Peema Trailblazer": {
    "drc#30": 1
@@ -24092,9 +24137,6 @@ var cards ={
   "Basalt Monolith": {
    "3ed#235": 1
   },
-  "Basilisk Collar": {
-   "mm3#216#foil": 1
-  },
   "Batterskull": {
    "nph#130": 1
   },
@@ -24137,9 +24179,6 @@ var cards ={
   "Bonesplitter": {
    "mrd#146#foil": 1
   },
-  "Bonfire of the Damned": {
-   "avr#129#foil": 1
-  },
   "Boros Reckoner": {
    "gtc#215#foil": 1
   },
@@ -24157,9 +24196,6 @@ var cards ={
   },
   "Breeding Pool": {
    "rna#246#foil": 1
-  },
-  "Breya's Apprentice": {
-   "pmh2#117s#foil": 1
   },
   "Brimaz, King of Oreskos": {
    "bng#5": 1
@@ -24194,9 +24230,6 @@ var cards ={
   "Clever Impersonator": {
    "ktk#34#foil": 1
   },
-  "Coercive Portal": {
-   "cns#56": 1
-  },
   "Collective Brutality": {
    "emn#85#foil": 1
   },
@@ -24211,9 +24244,6 @@ var cards ={
   },
   "Courser of Kruphix": {
    "bng#119#foil": 1
-  },
-  "Creeping Tar Pit": {
-   "uma#239#foil": 1
   },
   "Crucible of Worlds": {
    "m19#229#foil": 1
@@ -24272,12 +24302,6 @@ var cards ={
   "Doom Whisperer": {
    "pgrn#69p#foil": 1
   },
-  "Dragonlord Atarka": {
-   "dtk#216#foil": 1
-  },
-  "Dragonlord Silumgar": {
-   "dtk#220#foil": 1
-  },
   "Dread Wanderer": {
    "akh#88": 1
   },
@@ -24307,9 +24331,6 @@ var cards ={
   },
   "Emrakul, the Promised End": {
    "emn#6#foil": 1
-  },
-  "End-Raze Forerunners": {
-   "prna#124s#foil": 1
   },
   "Enlightened Tutor": {
    "6ed#19": 1
@@ -24365,9 +24386,6 @@ var cards ={
   "Finale of Devastation": {
    "war#160#foil": 1
   },
-  "Fire // Ice": {
-   "apc#128#foil": 1
-  },
   "Fireblast": {
    "f01#12#foil": 1
   },
@@ -24394,9 +24412,6 @@ var cards ={
   },
   "Garruk Wildspeaker": {
    "m11#175": 1
-  },
-  "Garruk, Cursed Huntsman": {
-   "eld#191": 1
   },
   "Gideon, Ally of Zendikar": {
    "bfz#29": 1
@@ -24470,9 +24485,6 @@ var cards ={
   "Hexdrinker": {
    "mh1#168#foil": 1
   },
-  "Hissing Quagmire": {
-   "ogw#171": 1
-  },
   "Hornet Queen": {
    "m15#178#foil": 1
   },
@@ -24500,23 +24512,14 @@ var cards ={
   "Inquisition of Kozilek": {
    "mm3#75#foil": 1
   },
-  "Izzet Charm": {
-   "rtr#172#foil": 1
-  },
   "Izzet Signet": {
    "gpt#152#foil": 1
   },
   "Jace, the Mind Sculptor": {
    "v13#18#foil": 1
   },
-  "Joraga Treespeaker": {
-   "roe#190": 1
-  },
   "Journey to Nowhere": {
    "zen#14#foil": 1
-  },
-  "Judith, the Scourge Diva": {
-   "rna#185": 1
   },
   "Karakas": {
    "j12#6#foil": 1
@@ -24548,17 +24551,11 @@ var cards ={
   "Koth of the Hammer": {
    "som#94": 1
   },
-  "Lavaclaw Reaches": {
-   "wwk#139#foil": 1
-  },
   "Legion Warboss": {
    "grn#109": 1
   },
   "Lightning Bolt": {
    "4ed#208": 1
-  },
-  "Lightning Greaves": {
-   "mrd#199#foil": 1
   },
   "Lightning Strike": {
    "m19#152#foil": 1
@@ -24581,12 +24578,6 @@ var cards ={
   "Lotus Cobra": {
    "zen#168#foil": 1
   },
-  "Lovestruck Beast // Heart's Desire": {
-   "eld#299#foil": 1
-  },
-  "Lumbering Falls": {
-   "bfz#239#foil": 1
-  },
   "Luminarch Aspirant": {
    "znr#24": 1
   },
@@ -24595,9 +24586,6 @@ var cards ={
   },
   "Lyra Dawnbringer": {
    "dom#26#foil": 1
-  },
-  "Maelstrom Pulse": {
-   "arb#92#foil": 1
   },
   "Magmatic Channeler": {
    "znr#148": 1
@@ -24650,9 +24638,6 @@ var cards ={
   "Mother of Runes": {
    "ulg#14": 1
   },
-  "Murderous Redcap": {
-   "mma#192#foil": 1
-  },
   "Murderous Rider // Swift End": {
    "eld#287#foil": 1
   },
@@ -24665,9 +24650,6 @@ var cards ={
   "Mystic Confluence": {
    "bbd#122#foil": 1
   },
-  "Mystic Snake": {
-   "a25#208": 1
-  },
   "Nadir Kraken": {
    "pthb#55p#foil": 1
   },
@@ -24679,9 +24661,6 @@ var cards ={
   },
   "Necromancy": {
    "vis#64": 1
-  },
-  "Needle Spires": {
-   "ogw#175": 1
   },
   "Nekrataal": {
    "9ed#149#foil": 1
@@ -24752,9 +24731,6 @@ var cards ={
   "Polluted Delta": {
    "ktk#239": 1
   },
-  "Polukranos, World Eater": {
-   "ddl#43#foil": 1
-  },
   "Ponder": {
    "tsr#315": 1
   },
@@ -24775,9 +24751,6 @@ var cards ={
   },
   "Purphoros, God of the Forge": {
    "ths#135": 1
-  },
-  "Raging Ravine": {
-   "uma#249#foil": 1
   },
   "Rakdos Signet": {
    "dis#165#foil": 1
@@ -24821,9 +24794,6 @@ var cards ={
   "Sacred Foundry": {
    "rav#280": 1
   },
-  "Sakura-Tribe Elder": {
-   "chk#239#foil": 1
-  },
   "Savannah": {
    "3ed#285": 1
   },
@@ -24853,9 +24823,6 @@ var cards ={
   },
   "Shadowspear": {
    "thb#236": 1
-  },
-  "Shambling Vent": {
-   "bfz#244": 1
   },
   "Show and Tell": {
    "cn2#121#foil": 1
@@ -24929,9 +24896,6 @@ var cards ={
   "Steam Vents": {
    "rtr#247": 1
   },
-  "Stirring Wildwood": {
-   "uma#251": 1
-  },
   "Stomping Ground": {
    "rna#259#foil": 1
   },
@@ -24974,9 +24938,6 @@ var cards ={
   "Swords to Plowshares": {
    "j13#1#foil": 1
   },
-  "Sylvan Advocate": {
-   "ogw#144": 1
-  },
   "Sylvan Caryatid": {
    "ths#180#foil": 1
   },
@@ -25003,9 +24964,6 @@ var cards ={
   },
   "The Great Henge": {
    "eld#161": 1
-  },
-  "The Locust God": {
-   "hou#139": 1
   },
   "The Meathook Massacre": {
    "mid#112": 1
@@ -25048,9 +25006,6 @@ var cards ={
   },
   "Toxic Deluge": {
    "ema#108": 1
-  },
-  "Trading Post": {
-   "m13#220#foil": 1
   },
   "Treachery": {
    "uds#50": 1
@@ -25109,12 +25064,6 @@ var cards ={
   "Verdant Catacombs": {
    "zen#229#foil": 1
   },
-  "Verdurous Gearhulk": {
-   "kld#172": 1
-  },
-  "Vindicate": {
-   "a25#219#foil": 1
-  },
   "Vivien Reid": {
    "m19#208#foil": 1
   },
@@ -25123,12 +25072,6 @@ var cards ={
   },
   "Walking Ballista": {
    "aer#181#foil": 1
-  },
-  "Wall of Blossoms": {
-   "sth#125": 1
-  },
-  "Wandering Fumarole": {
-   "ogw#182": 1
   },
   "Wasteland": {
    "ema#248#foil": 1
@@ -25166,9 +25109,6 @@ var cards ={
   "Wurmcoil Engine": {
    "psom#223\u2605#foil": 1
   },
-  "Xenagos, the Reveler": {
-   "ths#209": 1
-  },
   "Yawgmoth's Will": {
    "g07#3#foil": 1
   },
@@ -25203,9 +25143,6 @@ var cards ={
   }
  },
  "mtg/kuben/maybeboard": {
-  "Abbot of Keral Keep": {
-   "ori#127": 1
-  },
   "Aether Channeler": {
    "dmu#42": 1
   },
@@ -25215,17 +25152,11 @@ var cards ={
   "All Is Dust": {
    "mm2#1": 1
   },
-  "Ancient Grudge": {
-   "mm3#88#foil": 1
-  },
   "Angel of Serenity": {
    "rtr#1": 1
   },
   "Anguished Unmaking": {
    "soi#242#foil": 1
-  },
-  "Arc Lightning": {
-   "ktk#97#foil": 1
   },
   "Arcane Denial": {
    "a25#41#foil": 1
@@ -25239,32 +25170,14 @@ var cards ={
   "Banisher Priest": {
    "m14#7#foil": 1
   },
-  "Birthing Pod": {
-   "nph#104": 1
-  },
-  "Blightning": {
-   "ala#156#foil": 1
-  },
   "Bloodgift Demon": {
    "isd#89#foil": 1
-  },
-  "Bomat Courier": {
-   "kld#199": 1
-  },
-  "Boros Charm": {
-   "gtc#148": 1
   },
   "Brain Maggot": {
    "jou#62#foil": 1
   },
-  "Bushwhack": {
-   "bro#174": 1
-  },
   "Clone": {
    "m14#47#foil": 1
-  },
-  "Collected Company": {
-   "dtk#177#foil": 1
   },
   "Condemn": {
    "m11#11#foil": 1
@@ -25284,32 +25197,11 @@ var cards ={
   "Delver of Secrets // Insectile Aberration": {
    "isd#51": 1
   },
-  "Detention Sphere": {
-   "rtr#155": 1
-  },
-  "Dragon's Rage Channeler": {
-   "mh2#121": 1
-  },
-  "Dream Trawler": {
-   "thb#214": 1
-  },
   "Duress": {
    "m14#97": 1
   },
-  "Duskwatch Recruiter // Krallenhorde Howler": {
-   "soi#203": 1
-  },
-  "Electrolyze": {
-   "mm2#174#foil": 1
-  },
   "Enclave Cryptologist": {
    "roe#66#foil": 1
-  },
-  "Evolving Wilds": {
-   "iko#247#foil": 1
-  },
-  "Experiment One": {
-   "gtc#119": 1
   },
   "Falkenrath Pit Fighter": {
    "mid#137": 1
@@ -25320,38 +25212,17 @@ var cards ={
   "Forbid": {
    "f02#9#foil": 1
   },
-  "Fyndhorn Elves": {
-   "v13#4#foil": 1
-  },
-  "Garruk Relentless // Garruk, the Veil-Cursed": {
-   "isd#181#foil": 1
-  },
   "Gilded Drake": {
    "usg#76": 1
   },
   "Gingerbrute": {
    "eld#219#foil": 1
   },
-  "Glorybringer": {
-   "akh#134": 1
-  },
   "Gray Merchant of Asphodel": {
    "ths#89": 1
   },
-  "Harmonize": {
-   "plc#149": 1
-  },
-  "Hostage Taker": {
-   "xln#223": 1
-  },
-  "Huntmaster of the Fells // Ravager of the Fells": {
-   "dka#140#foil": 1
-  },
   "Hypnotic Specter": {
    "p06#1#foil": 1
-  },
-  "Indatha Triome": {
-   "iko#309#foil": 1
   },
   "Infernal Grasp": {
    "mid#107": 2
@@ -25359,26 +25230,14 @@ var cards ={
   "Inkwell Leviathan": {
    "con#30#foil": 1
   },
-  "Jackal Pup": {
-   "pd2#2#foil": 1
-  },
-  "Jetmir's Garden": {
-   "snc#291#foil": 1
-  },
   "Kalitas, Traitor of Ghet": {
    "ogw#86": 1
   },
   "Kitesail Freebooter": {
    "xln#110": 1
   },
-  "Krosan Grip": {
-   "f10#8#foil": 1
-  },
   "Languish": {
    "ori#105": 1
-  },
-  "Lightning Helix": {
-   "rav#213": 1
   },
   "Liliana, Dreadhorde General": {
    "war#97": 1
@@ -25389,12 +25248,6 @@ var cards ={
   "Man-o'-War": {
    "a25#64#foil": 1
   },
-  "Manic Vandal": {
-   "m11#151#foil": 1
-  },
-  "Master of Death": {
-   "mh2#205#foil": 1
-  },
   "Meloku the Clouded Mirror": {
    "chk#74": 1
   },
@@ -25403,12 +25256,6 @@ var cards ={
   },
   "Mikaeus, the Lunarch": {
    "v11#6#foil": 1
-  },
-  "Mizzium Mortars": {
-   "rtr#101#foil": 1
-  },
-  "Monastery Swiftspear": {
-   "ktk#118": 1
   },
   "Mulldrifter": {
    "f09#6#foil": 1
@@ -25419,26 +25266,14 @@ var cards ={
   "Negate": {
    "aer#40#foil": 1
   },
-  "Nevinyrral's Disk": {
-   "v10#11#foil": 1
-  },
   "Nexus of Fate": {
    "m19#306#foil": 1
-  },
-  "Nicol Bolas, Planeswalker": {
-   "con#120#foil": 1
   },
   "Noxious Gearhulk": {
    "kld#96": 1
   },
-  "Ohran Viper": {
-   "csp#115": 1
-  },
   "Palinchron": {
    "ulg#38": 1
-  },
-  "Pernicious Deed": {
-   "apc#114": 1
   },
   "Persist": {
    "mh2#96": 1
@@ -25452,29 +25287,8 @@ var cards ={
   "Phyrexian Triniform": {
    "cmr#331": 1
   },
-  "Putrefy": {
-   "dgm#93#foil": 1
-  },
-  "Qasali Pridemage": {
-   "arb#75": 1
-  },
-  "Rabbit Battery": {
-   "neo#157": 1
-  },
-  "Rakdos Cackler": {
-   "rtr#220#foil": 1
-  },
-  "Raugrin Triome": {
-   "iko#311#foil": 1
-  },
   "Ravenous Chupacabra": {
    "rix#82": 1
-  },
-  "Reflector Mage": {
-   "ogw#157": 1
-  },
-  "Ripjaw Raptor": {
-   "xln#203#foil": 1
   },
   "Savannah Lions": {
    "a25#33#foil": 1
@@ -25482,47 +25296,14 @@ var cards ={
   "Search for Azcanta // Azcanta, the Sunken Ruin": {
    "pxln#74s#foil": 1
   },
-  "Searing Spear": {
-   "m13#147#foil": 1
-  },
-  "Shadowmage Infiltrator": {
-   "ody#294#foil": 1
-  },
   "Shalai, Voice of Plenty": {
    "dom#35": 1
-  },
-  "Shardless Agent": {
-   "ema#206": 1
-  },
-  "Shock": {
-   "m12#154#foil": 1
   },
   "Shriekmaw": {
    "plrw#139\u2605#foil": 1
   },
-  "Sin Prodder": {
-   "soi#181": 1
-  },
-  "Sol Ring": {
-   "3ed#274": 1
-  },
-  "Solemn Simulacrum": {
-   "mrd#245": 1
-  },
-  "Song of the Dryads": {
-   "c14#47": 1
-  },
   "Spawn of Mayhem": {
    "rna#85": 1
-  },
-  "Spell Queller": {
-   "emn#189": 1
-  },
-  "Sphinx's Revelation": {
-   "rtr#200": 1
-  },
-  "Strangleroot Geist": {
-   "pdka#127": 1
   },
   "Sun Titan": {
    "ddl#1#foil": 1
@@ -25532,15 +25313,6 @@ var cards ={
   },
   "Tamiyo, the Moon Sage": {
    "avr#79#foil": 1
-  },
-  "Terastodon": {
-   "wwk#115": 1
-  },
-  "Terminate": {
-   "arb#46#foil": 1
-  },
-  "Terramorphic Expanse": {
-   "uma#252#foil": 1
   },
   "Thing in the Ice // Awoken Horror": {
    "soi#92#foil": 1
@@ -25560,9 +25332,6 @@ var cards ={
   "Unburial Rites": {
    "mm3#85#foil": 1
   },
-  "Underworld Breach": {
-   "thb#161": 1
-  },
   "Vampire Lacerator": {
    "mm2#101#foil": 1
   },
@@ -25575,23 +25344,479 @@ var cards ={
   "Wall of Omens": {
    "ema#34#foil": 1
   },
-  "Wall of Roots": {
-   "mir#253": 1
-  },
-  "Weaponize the Monsters": {
-   "iko#140#foil": 1
-  },
   "Whip of Erebos": {
    "ths#110": 1
   },
   "Yahenni's Expertise": {
    "paer#75#foil": 1
+  }
+ },
+ "mtg/kuben/maybeboard/colorless": {
+  "Basilisk Collar": {
+   "mm3#216#foil": 1
+  },
+  "Coercive Portal": {
+   "cns#56": 1
+  },
+  "Crystalline Giant": {
+   "iko#234": 1
+  },
+  "Kaldra Compleat": {
+   "mh2#379": 1
+  },
+  "Lightning Greaves": {
+   "mrd#199#foil": 1
+  },
+  "Mystic Forge": {
+   "brr#99": 1
+  },
+  "Nevinyrral's Disk": {
+   "v10#11#foil": 1
+  },
+  "Palant\u00edr of Orthanc": {
+   "ltr#247": 1
+  },
+  "Sol Ring": {
+   "3ed#274": 1
+  },
+  "Solemn Simulacrum": {
+   "mrd#245": 1
+  },
+  "Sword of Once and Future": {
+   "mom#265": 1
+  },
+  "Sword of Wealth and Power": {
+   "big#26": 1
+  },
+  "Tarrian's Soulcleaver": {
+   "lci#264": 1
+  },
+  "Trading Post": {
+   "m13#220#foil": 1
+  },
+  "Ugin, the Spirit Dragon": {
+   "m21#1#foil": 1
+  },
+  "Ulamog, the Defiler": {
+   "mh3#15": 1
+  }
+ },
+ "mtg/kuben/maybeboard/red": {
+  "Abbot of Keral Keep": {
+   "ori#127": 1
+  },
+  "Ancient Grudge": {
+   "mm3#88#foil": 1
+  },
+  "Arc Lightning": {
+   "ktk#97#foil": 1
+  },
+  "Bomat Courier": {
+   "kld#199": 1
+  },
+  "Bonehoard Dracosaur": {
+   "lci#134": 1
+  },
+  "Bonfire of the Damned": {
+   "avr#129#foil": 1
+  },
+  "Breya's Apprentice": {
+   "pmh2#117s#foil": 1
+  },
+  "Cast into the Fire": {
+   "ltr#118": 1
+  },
+  "Charming Scoundrel": {
+   "woe#124#foil": 1
+  },
+  "Dragon's Rage Channeler": {
+   "mh2#121": 1
+  },
+  "Fury": {
+   "mh2#126#foil": 1
+  },
+  "Glorybringer": {
+   "akh#134": 1
+  },
+  "Hellrider": {
+   "ddk#52": 1
+  },
+  "Insolent Neonate": {
+   "soi#168": 1
+  },
+  "Jackal Pup": {
+   "pd2#2#foil": 1
+  },
+  "Kavaron Harrier": {
+   "eoe#139": 1
+  },
+  "Legion Extruder": {
+   "big#12": 1
+  },
+  "Manic Vandal": {
+   "m11#151#foil": 1
+  },
+  "Marauding Mako": {
+   "dft#138": 1
+  },
+  "Mizzium Mortars": {
+   "rtr#101#foil": 1
+  },
+  "Monastery Swiftspear": {
+   "ktk#118": 1
+  },
+  "Rabbit Battery": {
+   "neo#157": 1
+  },
+  "Ragavan, Nimble Pilferer": {
+   "mh2#138#foil": 1
+  },
+  "Rampaging Raptor": {
+   "mom#160#foil": 1
+  },
+  "Seal of Fire": {
+   "nem#98": 1
+  },
+  "Searing Spear": {
+   "m13#147#foil": 1
+  },
+  "Shivan Devastator": {
+   "dmu#143#foil": 1
+  },
+  "Shock": {
+   "m12#154#foil": 1
+  },
+  "Sin Prodder": {
+   "soi#181": 1
+  },
+  "Temur Battle Rage": {
+   "tsr#351": 1
+  },
+  "Trumpeting Carnosaur": {
+   "lci#171#foil": 1
+  },
+  "Underworld Breach": {
+   "thb#161": 1
+  },
+  "Weaponize the Monsters": {
+   "iko#140#foil": 1
+  },
+  "Wheel of Fortune": {
+   "3ed#185": 1
+  }
+ },
+ "mtg/kuben/maybeboard/gold": {
+  "Ashen Rider": {
+   "2x2#173": 1
+  },
+  "Blightning": {
+   "ala#156#foil": 1
+  },
+  "Boros Charm": {
+   "gtc#148": 1
+  },
+  "Detention Sphere": {
+   "rtr#155": 1
+  },
+  "Dragonlord Atarka": {
+   "dtk#216#foil": 1
+  },
+  "Dragonlord Silumgar": {
+   "dtk#220#foil": 1
+  },
+  "Dream Trawler": {
+   "thb#214": 1
+  },
+  "Electrolyze": {
+   "mm2#174#foil": 1
+  },
+  "Expressive Iteration": {
+   "stx#186#foil": 1
+  },
+  "Fire // Ice": {
+   "apc#128#foil": 1
+  },
+  "Garruk, Cursed Huntsman": {
+   "eld#191": 1
+  },
+  "Hostage Taker": {
+   "xln#223": 1
+  },
+  "Huntmaster of the Fells // Ravager of the Fells": {
+   "dka#140#foil": 1
+  },
+  "Judith, the Scourge Diva": {
+   "rna#185": 1
+  },
+  "Leinore, Autumn Sovereign": {
+   "mic#1": 1
+  },
+  "Lightning Helix": {
+   "rav#213": 1
+  },
+  "Maelstrom Pulse": {
+   "arb#92#foil": 1
+  },
+  "Master of Death": {
+   "mh2#205#foil": 1
+  },
+  "Murderous Redcap": {
+   "mma#192#foil": 1
+  },
+  "Mystic Snake": {
+   "a25#208": 1
+  },
+  "Nadu, Winged Wisdom": {
+   "mh3#193": 1
+  },
+  "Nicol Bolas, Planeswalker": {
+   "con#120#foil": 1
+  },
+  "Pernicious Deed": {
+   "apc#114": 1
+  },
+  "Putrefy": {
+   "dgm#93#foil": 1
+  },
+  "Qasali Pridemage": {
+   "arb#75": 1
+  },
+  "Rakdos Cackler": {
+   "rtr#220#foil": 1
+  },
+  "Reflector Mage": {
+   "ogw#157": 1
+  },
+  "Shadowmage Infiltrator": {
+   "ody#294#foil": 1
+  },
+  "Shardless Agent": {
+   "ema#206": 1
+  },
+  "Sovereign Okinec Ahau": {
+   "lci#240": 1
+  },
+  "Spell Queller": {
+   "emn#189": 1
+  },
+  "Sphinx's Revelation": {
+   "rtr#200": 1
+  },
+  "Sprite Dragon": {
+   "iko#211": 1
+  },
+  "Terminate": {
+   "arb#46#foil": 1
+  },
+  "The Goose Mother": {
+   "woe#204": 1
+  },
+  "The Locust God": {
+   "hou#139": 1
+  },
+  "Vindicate": {
+   "a25#219#foil": 1
+  },
+  "Wight of the Reliquary": {
+   "mh3#207": 1
+  },
+  "Xenagos, the Reveler": {
+   "ths#209": 1
+  }
+ },
+ "mtg/kuben/maybeboard/multi": {
+  "Izzet Charm": {
+   "rtr#172#foil": 1
+  }
+ },
+ "mtg/kuben/maybeboard/green": {
+  "Ascendant Packleader": {
+   "pvow#186s#foil": 1
+  },
+  "Augur of Autumn": {
+   "mid#168#foil": 1
+  },
+  "Birthing Pod": {
+   "nph#104": 1
+  },
+  "Bushwhack": {
+   "fdn#215#foil": 1
+  },
+  "Caldaia Guardian": {
+   "ncc#56": 1
+  },
+  "Collected Company": {
+   "dtk#177#foil": 1
+  },
+  "Diamond Weapon": {
+   "fin#183#foil": 1
+  },
+  "Duskwatch Recruiter // Krallenhorde Howler": {
+   "soi#203": 1
+  },
+  "End-Raze Forerunners": {
+   "prna#124s#foil": 1
+  },
+  "Experiment One": {
+   "gtc#119": 1
+  },
+  "Frenzied Baloth": {
+   "eoe#183": 1
+  },
+  "Fyndhorn Elves": {
+   "v13#4#foil": 1
+  },
+  "Garruk Relentless // Garruk, the Veil-Cursed": {
+   "isd#181#foil": 1
+  },
+  "Gruff Triplets": {
+   "woe#172": 1
+  },
+  "Harmonize": {
+   "plc#149": 1
+  },
+  "Insidious Fungus": {
+   "dsk#186#foil": 1
+  },
+  "Joraga Treespeaker": {
+   "roe#190": 1
+  },
+  "Krosan Grip": {
+   "f10#8#foil": 1
+  },
+  "Lovestruck Beast // Heart's Desire": {
+   "eld#299#foil": 1
+  },
+  "Mosswood Dreadknight // Dread Whispers": {
+   "woe#292": 1
+  },
+  "Ohran Viper": {
+   "csp#115": 1
+  },
+  "Pawpatch Recruit": {
+   "blb#187": 1
+  },
+  "Polukranos, World Eater": {
+   "ddl#43#foil": 1
+  },
+  "Ripjaw Raptor": {
+   "xln#203#foil": 1
+  },
+  "Sakura-Tribe Elder": {
+   "chk#239#foil": 1
+  },
+  "Song of the Dryads": {
+   "c14#47": 1
+  },
+  "Springheart Nantuko": {
+   "mh3#171": 1
+  },
+  "Strangleroot Geist": {
+   "pdka#127": 1
+  },
+  "Sylvan Advocate": {
+   "ogw#144": 1
+  },
+  "Terastodon": {
+   "wwk#115": 1
+  },
+  "Tireless Provisioner": {
+   "mh2#180": 1
+  },
+  "Verdurous Gearhulk": {
+   "kld#172": 1
+  },
+  "Wall of Blossoms": {
+   "sth#125": 1
+  },
+  "Wall of Roots": {
+   "mir#253": 1
+  },
+  "Whisperwood Elemental": {
+   "frf#145": 1
   },
   "Yavimaya Elder": {
    "uds#124#foil": 1
+  }
+ },
+ "mtg/kuben/maybeboard/lands": {
+  "Creeping Tar Pit": {
+   "uma#239#foil": 1
+  },
+  "Dark Depths": {
+   "dmr#244": 1
+  },
+  "Escape Tunnel": {
+   "mkm#261#foil": 1
+  },
+  "Evolving Wilds": {
+   "iko#247#foil": 1
+  },
+  "Hissing Quagmire": {
+   "ogw#171": 1
+  },
+  "Indatha Triome": {
+   "iko#309#foil": 1
+  },
+  "Jetmir's Garden": {
+   "snc#291#foil": 1
+  },
+  "Ketria Triome": {
+   "iko#310#foil": 1
+  },
+  "Lavaclaw Reaches": {
+   "wwk#139#foil": 1
+  },
+  "Lumbering Falls": {
+   "bfz#239#foil": 1
+  },
+  "Meticulous Archive": {
+   "mkm#264": 1
+  },
+  "Needle Spires": {
+   "ogw#175": 1
+  },
+  "Raffine's Tower": {
+   "snc#292#foil": 1
+  },
+  "Raging Ravine": {
+   "uma#249#foil": 1
+  },
+  "Raugrin Triome": {
+   "iko#311#foil": 1
+  },
+  "Restless Fortress": {
+   "woe#259#foil": 1
+  },
+  "Restless Vinestalk": {
+   "woe#261#foil": 1
+  },
+  "Savai Triome": {
+   "iko#312#foil": 1
+  },
+  "Shambling Vent": {
+   "bfz#244": 1
+  },
+  "Stirring Wildwood": {
+   "uma#251": 1
+  },
+  "Tarnation Vista": {
+   "big#30": 1
+  },
+  "Terramorphic Expanse": {
+   "uma#252#foil": 1
+  },
+  "Wandering Fumarole": {
+   "ogw#182": 1
+  },
+  "Xander's Lounge": {
+   "snc#294#foil": 1
   },
   "Zagoth Triome": {
    "iko#313#foil": 1
+  },
+  "Ziatora's Proving Ground": {
+   "snc#295#foil": 1
   }
  },
  "mtg/modern/dinowhack": {
@@ -25738,26 +25963,27 @@ var cards ={
    "mh2#260": 4
   }
  },
- "mtg/legacy/aluren/sideboard": {
+ "mtg/legacy/aluren/maybeboard": {
+  "Acererak the Archlich": {
+   "afr#87": 2
+  },
   "Carpet of Flowers": {
    "usg#240": 2
   },
   "Collector Ouphe": {
-   "mh1#158": 1
+   "mh1#158": 3
   },
   "Endurance": {
    "mh2#157": 1
   },
-  "Leovold, Emissary of Trest": {
-   "uma#202": 1
-  }
- },
- "mtg/legacy/aluren/maybeboard": {
-  "Collector Ouphe": {
-   "mh1#158": 1
+  "Grist, the Hunger Tide": {
+   "mh2#368": 4
   },
   "Lavinia, Azorius Renegade": {
    "rna#189": 1
+  },
+  "Leovold, Emissary of Trest": {
+   "uma#202": 1
   },
   "Leyline Binding": {
    "dmu#24": 1
@@ -25767,6 +25993,9 @@ var cards ={
   },
   "Prismatic Ending": {
    "mh2#384": 1
+  },
+  "Three Tree Scribe": {
+   "blb#199": 1
   }
  }
 };
