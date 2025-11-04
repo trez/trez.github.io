@@ -188,9 +188,6 @@ var cards ={
   "Guide of Souls": {
    "mh3#29": 1
   },
-  "Gustcloak Savior": {
-   "ons#36": 1
-  },
   "Heliod, Sun-Crowned": {
    "pthb#18s#foil": 1
   },
@@ -3100,9 +3097,6 @@ var cards ={
   "Kindred Dominance": {
    "cmm#169": 1
   },
-  "Lich-Knights' Conquest": {
-   "woe#96": 1
-  },
   "Liliana of the Dark Realms": {
    "m14#102": 1
   },
@@ -5028,14 +5022,8 @@ var cards ={
   "Ashiok's Erasure": {
    "thb#43": 4
   },
-  "Assemble the Legion": {
-   "gtc#142": 1
-  },
   "Avatar of the Resolute": {
    "dtk#175": 1
-  },
-  "Beast Whisperer": {
-   "grn#123": 1
   },
   "Bloodhall Priest": {
    "emn#181": 6
@@ -5352,9 +5340,6 @@ var cards ={
   "Great Sable Stag": {
    "m10#186": 1
   },
-  "Greenbelt Rampager": {
-   "aer#107": 1
-  },
   "Grind // Dust": {
    "hou#155": 2
   },
@@ -5390,7 +5375,7 @@ var cards ={
    "bng#123": 2
   },
   "Heroic Intervention": {
-   "aer#109": 5,
+   "aer#109": 4,
    "m21#188#foil": 1
   },
   "Heron's Grace Champion": {
@@ -6429,9 +6414,6 @@ var cards ={
   },
   "Timeless Lotus": {
    "dmu#239": 1
-  },
-  "Trading Post": {
-   "c16#278": 1
   },
   "Transmogrant's Crown": {
    "bro#125": 1
@@ -7709,7 +7691,7 @@ var cards ={
    "m19#102": 1
   },
   "Inspiring Statuary": {
-   "aer#160": 2
+   "aer#160": 1
   },
   "Invincible Hymn": {
    "ala#14": 1
@@ -7817,7 +7799,7 @@ var cards ={
    "frf#75": 1
   },
   "Marionette Master": {
-   "kld#90": 5
+   "kld#90": 4
   },
   "Markov Dreadknight": {
    "soi#122": 3
@@ -9999,6 +9981,9 @@ var cards ={
   "Coveted Falcon": {
    "mkm#48": 1
   },
+  "Cultural Exchange": {
+   "ody#79": 1
+  },
   "Decanter of Endless Water": {
    "clb#444": 1
   },
@@ -10919,9 +10904,6 @@ var cards ={
   "Maze of Ith": {
    "drk#117": 1
   },
-  "Mazirek, Kraul Death Priest": {
-   "c15#48": 1
-  },
   "Multani, Yavimaya's Avatar": {
    "dom#174#foil": 1
   },
@@ -11050,59 +11032,20 @@ var cards ={
   "Alesha, Who Smiles at Death": {
    "frf#90": 1
   },
-  "Anafenza, Kin-Tree Spirit": {
-   "dtk#2": 1
-  },
-  "Angel of Invention": {
-   "kld#4": 1
-  },
   "Anguished Unmaking": {
    "soi#242": 1
-  },
-  "Ankle Shanker": {
-   "ktk#164": 1
-  },
-  "Aurelia's Fury": {
-   "gtc#144": 1
   },
   "Austere Command": {
    "ima#10": 1
   },
-  "Avalanche Riders": {
-   "ulg#74": 1
-  },
-  "Aven Mindcensor": {
-   "fut#18": 1
-  },
-  "Ayli, Eternal Pilgrim": {
-   "ogw#151": 1
-  },
   "Battlefield Forge": {
    "ori#244": 1
-  },
-  "Blood Artist": {
-   "ema#81": 1
-  },
-  "Cast Down": {
-   "dom#81": 1
   },
   "Cathartic Reunion": {
    "kld#109": 1
   },
   "Caves of Koilos": {
    "ori#245": 1
-  },
-  "Condemn": {
-   "c14#69": 1
-  },
-  "Crackling Doom": {
-   "ktk#171": 1
-  },
-  "Deathrender": {
-   "cns#197": 1
-  },
-  "Dictate of Erebos": {
-   "jou#65": 1
   },
   "Dragonskull Summit": {
    "m13#222": 1
@@ -11116,9 +11059,6 @@ var cards ={
   "Falkenrath Marauders": {
    "isd#141": 1
   },
-  "Felidar Guardian": {
-   "aer#19": 1
-  },
   "Fiend Hunter": {
    "a25#14": 1
   },
@@ -11128,41 +11068,20 @@ var cards ={
   "Godless Shrine": {
    "gtc#242": 1
   },
-  "Gonti, Lord of Luxury": {
-   "kld#84": 1
-  },
-  "Hanweir Garrison": {
-   "emn#130a": 1
+  "Gustcloak Savior": {
+   "ons#36": 1
   },
   "Harsh Mentor": {
    "akh#135": 1
   },
-  "Kambal, Consul of Allocation": {
-   "kld#183": 1
-  },
-  "Karmic Guide": {
-   "ema#17#foil": 1
-  },
   "Key to the City": {
    "kld#220": 1
-  },
-  "Legion Loyalist": {
-   "gtc#97#foil": 1
-  },
-  "Leonin Relic-Warder": {
-   "mbs#10": 1
   },
   "Master of Cruelties": {
    "dgm#82": 1
   },
-  "Mentor of the Meek": {
-   "m19#27": 1
-  },
   "Mirror Entity": {
    "mm2#26": 1
-  },
-  "Mortify": {
-   "cns#190": 1
   },
   "Noosegraf Mob": {
    "bbd#151": 1
@@ -11170,17 +11089,8 @@ var cards ={
   "Orzhov Signet": {
    "cm2#206": 1
   },
-  "Palisade Giant": {
-   "rtr#15": 1
-  },
   "Perilous Myr": {
    "som#192": 1
-  },
-  "Pia and Kiran Nalaar": {
-   "ori#157": 1
-  },
-  "Ponyback Brigade": {
-   "ktk#191": 1
   },
   "Ravenous Chupacabra": {
    "rix#82": 1
@@ -11194,14 +11104,8 @@ var cards ={
   "Relentless Assault": {
    "s99#115": 1
   },
-  "Reveillark": {
-   "mor#22": 1
-  },
   "Siege-Gang Commander": {
    "dom#143": 1
-  },
-  "Slayers' Stronghold": {
-   "avr#229": 1
   },
   "Sunforger": {
    "mm2#232": 1
@@ -11212,15 +11116,6 @@ var cards ={
   "Swords to Plowshares": {
    "cns#84": 1
   },
-  "Taurean Mauler": {
-   "mor#109": 1
-  },
-  "Terminate": {
-   "mm3#194": 1
-  },
-  "Ultimate Price": {
-   "dtk#124": 1
-  },
   "Vault of the Archangel": {
    "dka#158": 1
   },
@@ -11230,14 +11125,244 @@ var cards ={
   "Wind-Scarred Crag": {
    "ktk#247": 1
   },
-  "Xathrid Necromancer": {
-   "m14#123": 1
-  },
   "Yahenni, Undying Partisan": {
    "aer#74": 1
   },
   "Zombify": {
    "ody#171": 1
+  }
+ },
+ "mtg/commander/alesha_who_smiles_at_death/maybeboard": {
+  "Anafenza, Kin-Tree Spirit": {
+   "dtk#2": 1
+  },
+  "Angel of Invention": {
+   "kld#4": 1
+  },
+  "Ankle Shanker": {
+   "ktk#164": 1
+  },
+  "Assemble the Legion": {
+   "gtc#142": 1
+  },
+  "Assemble the Players": {
+   "mkm#3": 1
+  },
+  "Aurelia's Fury": {
+   "gtc#144": 1
+  },
+  "Avalanche Riders": {
+   "ulg#74": 1
+  },
+  "Aven Mindcensor": {
+   "fut#18": 1
+  },
+  "Avenger of the Fallen": {
+   "tdm#73": 1
+  },
+  "Ayli, Eternal Pilgrim": {
+   "ogw#151": 1
+  },
+  "Baird, Argivian Recruiter": {
+   "dmu#195": 1
+  },
+  "Baird, Steward of Argive": {
+   "pdom#4s#foil": 1
+  },
+  "Bastion of Remembrance": {
+   "iko#73": 1
+  },
+  "Blasphemous Act": {
+   "who#224": 1
+  },
+  "Blood Artist": {
+   "ema#81": 1
+  },
+  "Brutal Hordechief": {
+   "frf#64": 1
+  },
+  "Buried Alive": {
+   "ody#118": 1
+  },
+  "Burnished Hart": {
+   "brr#8": 1
+  },
+  "Cadric, Soul Kindler": {
+   "dmc#10": 1
+  },
+  "Cast Down": {
+   "dom#81": 1
+  },
+  "Chainsaw": {
+   "dsk#314#foil": 1
+  },
+  "Commander Sofia Daguerre": {
+   "pip#15": 1
+  },
+  "Condemn": {
+   "c14#69": 1
+  },
+  "Crackling Doom": {
+   "ktk#171": 1
+  },
+  "Cruel Celebrant": {
+   "war#188#foil": 1
+  },
+  "Deathrender": {
+   "cns#197": 1
+  },
+  "Denethor, Ruling Steward": {
+   "ltr#198": 1
+  },
+  "Dictate of Erebos": {
+   "jou#65": 1
+  },
+  "Enduring Innocence": {
+   "dsk#6": 1
+  },
+  "Eviscerator's Insight": {
+   "mh3#93": 1
+  },
+  "Felidar Guardian": {
+   "aer#19": 1
+  },
+  "General Kudro of Drannith": {
+   "iko#187": 1
+  },
+  "General's Enforcer": {
+   "iko#188": 1
+  },
+  "Gonti, Lord of Luxury": {
+   "kld#84": 1
+  },
+  "Grishn\u00e1kh, Brash Instigator": {
+   "ltr#134": 1
+  },
+  "Gr\u00edma Wormtongue": {
+   "ltr#88": 1
+  },
+  "Hanweir Garrison": {
+   "emn#130a": 1
+  },
+  "Inevitable Defeat": {
+   "tdm#194": 1
+  },
+  "Judith, the Scourge Diva": {
+   "mul#45": 1
+  },
+  "K'rrik, Son of Yawgmoth": {
+   "mh3#365": 1
+  },
+  "Kambal, Consul of Allocation": {
+   "kld#183": 1
+  },
+  "Karmic Guide": {
+   "ema#17#foil": 1
+  },
+  "Legion Leadership // Legion Stronghold": {
+   "mh3#255": 1
+  },
+  "Legion Loyalist": {
+   "gtc#97#foil": 1
+  },
+  "Leonin Relic-Warder": {
+   "mbs#10": 1
+  },
+  "Life Insurance": {
+   "ncc#74": 1
+  },
+  "Lord Skitter's Butcher": {
+   "woe#99": 1
+  },
+  "Loyal Apprentice": {
+   "c18#23": 1
+  },
+  "Mentor of the Meek": {
+   "m19#27": 1
+  },
+  "Mortify": {
+   "cns#190": 1
+  },
+  "Paladin Class": {
+   "afr#29": 1
+  },
+  "Palisade Giant": {
+   "rtr#15": 1
+  },
+  "Party Thrasher": {
+   "mh3#129#foil": 1
+  },
+  "Pia and Kiran Nalaar": {
+   "ori#157": 1
+  },
+  "Pitiless Plunderer": {
+   "j25#476": 1
+  },
+  "Ponyback Brigade": {
+   "ktk#191": 1
+  },
+  "Raid Bombardment": {
+   "wot#47": 1
+  },
+  "Razorkin Needlehead": {
+   "dsk#153": 1
+  },
+  "Reluctant Role Model": {
+   "dsk#289#foil": 1
+  },
+  "Reveillark": {
+   "mor#22": 1
+  },
+  "Ruinous Ultimatum": {
+   "iko#204": 1
+  },
+  "Selfless Spirit": {
+   "plst#EMN-40": 1
+  },
+  "Shanid, Sleepers' Scourge": {
+   "dmc#4#foil": 1
+  },
+  "Shay Cormac": {
+   "acr#65": 1
+  },
+  "Skyclave Apparition": {
+   "znr#322#foil": 1
+  },
+  "Slayers' Stronghold": {
+   "avr#229": 1
+  },
+  "Taurean Mauler": {
+   "mor#109": 1
+  },
+  "Tenza, Godo's Maul": {
+   "dmc#193": 1
+  },
+  "Terminate": {
+   "mm3#194": 1
+  },
+  "Teshar, Ancestor's Apostle": {
+   "dmc#105": 1
+  },
+  "Ultimate Price": {
+   "dtk#124": 1
+  },
+  "Unbreakable Formation": {
+   "dmc#106": 1
+  },
+  "Untimely Malfunction": {
+   "dsk#161": 1
+  },
+  "Vikya, Scorching Stalwart": {
+   "slx#11": 1
+  },
+  "Virtue of Loyalty // Ardenvale Fealty": {
+   "woe#277": 1
+  },
+  "Witch Enchanter // Witch-Blessed Meadow": {
+   "mh3#239": 1
+  },
+  "Xathrid Necromancer": {
+   "m14#123": 1
   }
  },
  "mtg/commander/estrid_the_masked": {
@@ -11875,9 +12000,6 @@ var cards ={
   "Lord Windgrace": {
    "c18#43#foil": 1
   },
-  "Loyal Apprentice": {
-   "c18#23": 1
-  },
   "Loyal Guardian": {
    "c18#31": 1
   },
@@ -11982,6 +12104,169 @@ var cards ={
   },
   "Zendikar Incarnate": {
    "c18#195": 1
+  }
+ },
+ "mtg/commander/gyome_master_chef": {
+  "Academy Manufactor": {
+   "mh2#219": 1
+  },
+  "Assassin's Trophy": {
+   "mkm#187": 1
+  },
+  "Beast Whisperer": {
+   "grn#123": 1
+  },
+  "Cauldron Familiar": {
+   "eld#81": 1
+  },
+  "Command Tower": {
+   "cmr#350": 1
+  },
+  "Cranial Plating": {
+   "5dn#113": 1
+  },
+  "Deadly Dispute": {
+   "p30a#29#foil": 1
+  },
+  "Dina, Soul Steeper": {
+   "mul#37": 1
+  },
+  "Experimental Confectioner": {
+   "woe#314#foil": 1
+  },
+  "Fellwar Stone": {
+   "cmm#382": 1
+  },
+  "Greenbelt Rampager": {
+   "aer#107": 1
+  },
+  "Grim Backwoods": {
+   "cma#254": 1
+  },
+  "Grist, the Hunger Tide": {
+   "mh2#202": 1
+  },
+  "Gyome, Master Chef": {
+   "c21#5#foil": 1
+  },
+  "Heroic Intervention": {
+   "aer#109": 1
+  },
+  "Hot Dog Cart": {
+   "spm#164": 1
+  },
+  "Inspiring Statuary": {
+   "aer#160": 1
+  },
+  "Kona, Rescue Beastie": {
+   "dsk#299": 1
+  },
+  "Lich-Knights' Conquest": {
+   "woe#96": 1
+  },
+  "Marionette Apprentice": {
+   "mh3#100": 1
+  },
+  "Marionette Master": {
+   "kld#90": 1
+  },
+  "Mazirek, Kraul Death Priest": {
+   "c15#48": 1
+  },
+  "Mistbreath Elder": {
+   "blb#184": 1
+  },
+  "Nadier's Nightblade": {
+   "mh3#275": 1
+  },
+  "Necroblossom Snarl": {
+   "stx#269": 1
+  },
+  "Nurturing Peatland": {
+   "mh1#243": 1
+  },
+  "Old Flitterfang": {
+   "woe#316": 1
+  },
+  "Ravenous Squirrel": {
+   "mh2#211": 1
+  },
+  "Revive the Shire": {
+   "ltr#185": 1
+  },
+  "Sakura-Tribe Elder": {
+   "cns#177": 1
+  },
+  "Savvy Hunter": {
+   "eld#200": 1
+  },
+  "Secluded Starforge": {
+   "eoe#257": 1
+  },
+  "Sol Ring": {
+   "c18#222": 1
+  },
+  "Temple of Malady": {
+   "jou#165": 1
+  },
+  "Tireless Provisioner": {
+   "mh2#180": 1
+  },
+  "Tough Cookie": {
+   "woe#193#foil": 1
+  },
+  "Trading Post": {
+   "c16#278": 1
+  },
+  "Twitching Doll": {
+   "dsk#201": 1
+  }
+ },
+ "mtg/commander/gyome_master_chef/maybeboard": {
+  "Bake into a Pie": {
+   "eld#76": 1
+  },
+  "Drey Keeper": {
+   "mh2#194": 1
+  },
+  "Everflowing Chalice": {
+   "mm2#212": 1
+  },
+  "Gingerbrute": {
+   "woe#246": 1
+  },
+  "Go for the Throat": {
+   "bro#102": 1
+  },
+  "House Cartographer": {
+   "dsk#185": 1
+  },
+  "Infernal Grasp": {
+   "inr#119": 1
+  },
+  "Instant Ramen": {
+   "fin#259#foil": 1
+  },
+  "Izoni, Center of the Web": {
+   "mkm#209": 1
+  },
+  "Lembas": {
+   "ltr#243": 1
+  },
+  "Sanguine Indulgence": {
+   "m21#121": 1
+  },
+  "Scavenger's Talent": {
+   "blb#111": 1
+  },
+  "Squirrel Sanctuary": {
+   "mh2#174": 1
+  },
+  "The Underworld Cookbook": {
+   "mh2#434": 1
+  },
+  "Wight of the Reliquary": {
+   "mh3#207": 1
   }
  },
  "mtg/commander/teferi_temporal_archmage": {
