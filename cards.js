@@ -12113,11 +12113,26 @@ var cards ={
   "Assassin's Trophy": {
    "mkm#187": 1
   },
+  "Barren Moor": {
+   "c18#235": 1
+  },
   "Beast Whisperer": {
    "grn#123": 1
   },
+  "Bonecache Overseer": {
+   "blb#85": 1
+  },
+  "Bristlebud Farmer": {
+   "big#17": 1
+  },
+  "Camellia, the Seedmiser": {
+   "blb#207": 1
+  },
   "Cauldron Familiar": {
    "eld#81": 1
+  },
+  "Chatterfang, Squirrel General": {
+   "mh2#151": 1
   },
   "Command Tower": {
    "cmr#350": 1
@@ -12125,20 +12140,44 @@ var cards ={
   "Cranial Plating": {
    "5dn#113": 1
   },
+  "Darkmoss Bridge": {
+   "mh2#245": 1
+  },
   "Deadly Dispute": {
    "p30a#29#foil": 1
   },
   "Dina, Soul Steeper": {
    "mul#37": 1
   },
+  "Dockside Chef": {
+   "neo#93": 1
+  },
   "Experimental Confectioner": {
    "woe#314#foil": 1
+  },
+  "Fae Offering": {
+   "mh2#158": 1
+  },
+  "Feasting Troll King": {
+   "eld#152": 1
   },
   "Fellwar Stone": {
    "cmm#382": 1
   },
+  "Gilded Goose": {
+   "eld#160#foil": 1
+  },
+  "Gluttonous Troll": {
+   "eld#327": 1
+  },
+  "Gohn, Town of Ruin": {
+   "fin#278": 1
+  },
   "Greenbelt Rampager": {
    "aer#107": 1
+  },
+  "Greta, Sweettooth Scourge": {
+   "woe#205": 1
   },
   "Grim Backwoods": {
    "cma#254": 1
@@ -12152,11 +12191,20 @@ var cards ={
   "Heroic Intervention": {
    "aer#109": 1
   },
+  "Honored Dreyleader": {
+   "blb#178": 1
+  },
   "Hot Dog Cart": {
    "spm#164": 1
   },
   "Inspiring Statuary": {
    "aer#160": 1
+  },
+  "Jaheira, Friend of the Forest": {
+   "clb#237": 1
+  },
+  "Jungle Hollow": {
+   "tdm#258": 1
   },
   "Kona, Rescue Beastie": {
    "dsk#299": 1
@@ -12176,6 +12224,9 @@ var cards ={
   "Mistbreath Elder": {
    "blb#184": 1
   },
+  "Mudflat Village": {
+   "blb#257": 1
+  },
   "Nadier's Nightblade": {
    "mh3#275": 1
   },
@@ -12188,6 +12239,9 @@ var cards ={
   "Old Flitterfang": {
    "woe#316": 1
   },
+  "Peregrin Took": {
+   "ltr#315": 1
+  },
   "Ravenous Squirrel": {
    "mh2#211": 1
   },
@@ -12196,6 +12250,9 @@ var cards ={
   },
   "Sakura-Tribe Elder": {
    "cns#177": 1
+  },
+  "Sarinth Steelseeker": {
+   "bro#189": 1
   },
   "Savvy Hunter": {
    "eld#200": 1
@@ -12206,8 +12263,14 @@ var cards ={
   "Sol Ring": {
    "c18#222": 1
   },
+  "Syr Ginger, the Meal Ender": {
+   "woe#252": 1
+  },
   "Temple of Malady": {
    "jou#165": 1
+  },
+  "Thriving Moor": {
+   "jmp#37": 1
   },
   "Tireless Provisioner": {
    "mh2#180": 1
@@ -12218,8 +12281,17 @@ var cards ={
   "Trading Post": {
    "c16#278": 1
   },
+  "Trail of Crumbs": {
+   "eld#179": 1
+  },
   "Twitching Doll": {
    "dsk#201": 1
+  },
+  "Wicked Wolf": {
+   "eld#181": 1
+  },
+  "Ygra, Eater of All": {
+   "pblb#241p": 1
   }
  },
  "mtg/commander/gyome_master_chef/maybeboard": {
